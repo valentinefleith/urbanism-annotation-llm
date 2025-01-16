@@ -1,0 +1,506 @@
+<?xml version="1.0" ?>
+<root>
+  <phrase>﻿Adolescent, je ne séparais pas clairement mon intérêt pour la peinture, pour la sculpture de celui que je portais à la ville, les villes, que j’avais habitées, traversées, enfant.</phrase>
+  <phrase>Je voyais <lieu type="obj">Rennes</lieu> <dyn accompli="non" nature="modif" proces="dur">se transformer <perc type="axiol">spectaculairement</perc></dyn>.</phrase>
+  <phrase>Cela m’a amené à l’architecture.</phrase>
+  <phrase>Dans un livre de Jean Petit, les dessins de Le Corbusier pour Chandigarh m’étaient apparus rassembler tout cela.</phrase>
+  <phrase>Naïvement, j’y voyais une peinture ou une sculpture que l’on pourrait parcourir, où l’on pourrait vivre, et qui aurait la dimension d’un grand paysage.</phrase>
+  <phrase>J’ai souvenir d’être allé visiter <lieu type="obj">le quartier du Rheu</lieu>, <dyn accompli="oui" nature="crea">urbanisé</dyn> par <act type="pers_ind">Gaston Bardet</act>, l’anti-Corbu.</phrase>
+  <phrase>Je n’étais pas enthousiasmé.</phrase>
+  <phrase>L’architecture était rétrograde.</phrase>
+  <phrase>En 1962, à dix-huit ans, je suis entré à l’École des Beaux-Arts et, un peu par hasard, à l’Atelier d’Eugène Beaudouin.</phrase>
+  <phrase>J’avais alors une vision très manichéenne : d’un côté Le Corbusier dont j’avais visité tout ce que j’avais pu, de l’autre le Classicisme et l’Académisme.</phrase>
+  <phrase>Il se trouve que Beaudouin portait un grand intérêt à l’urbanisme et à l’histoire de la ville.</phrase>
+  <phrase>Il nous parlait d’Ispahan...</phrase>
+  <phrase>Après deux années fertiles passées à dessiner la villa Farnèse à Caprarola, la chapelle de Ronchamp ou le temple indien de Chidambaran, j’ai rejoint l’Atelier de Georges Candilis et Alexis Josic.</phrase>
+  <phrase>Là, au travers de la question de <dyn n="1"><perc type="axiol" n="1">l’explosion</perc> urbaine</dyn> et de <dyn n="2">l’industrialisation du <lieu type="obj" n="2">bâtiment du « très grand nombre »</lieu></dyn>, on parlait de <dyn accompli="non" n="3"><lieu type="obj" n="3">la ville</lieu> de <tps axe_temp="fut" n="3">demain</tps></dyn> : <dyn accompli="non" nature="repr" proces="iter" n="4"><lieu type="obj" n="4">une ville</lieu> à refaire</dyn> <perc type="axiol" n="4">de fond en comble à partir de rien</perc>.</phrase>
+  <phrase>Au même moment, les premiers écrits de Françoise Choay nous ouvraient les yeux sur le corpus doctrinal de l’urbanisme : elle faisait apparaître le débat progressisme-culturalisme dans une perspective historique.</phrase>
+  <phrase>À partir de 1965, j’ai participé, comme Roland Castro, Antoine Grumbach, et bien d’autres, au mouvement de contestation de l’enseignement des Beaux-Arts.</phrase>
+  <phrase>Avec Pierre Grandvaud, j’ai écrit l’article « Architecture et idéologie » de l’Encyclopedia Universalis.</phrase>
+  <phrase>Ce texte, abstrait et althussérien, me semble aujourd’hui bien lointain...</phrase>
+  <phrase>Les principes de la Charte d’Athènes commençaient alors à me sembler schématiques.</phrase>
+  <phrase>Le cinéma de Godard et Antonioni montrait la ville d’une manière plus réelle, cette hybride, ancienne et moderne qui était notre quotidien.</phrase>
+  <phrase>Je me suis alors un peu éloigné de l’architecture pour peindre, lire, voyager.</phrase>
+  <phrase>J’ai fait un long séjour à New York en 1966 qui m’a marqué.</phrase>
+  <phrase>La ville me fascine toujours.</phrase>
+  <phrase>C’est la scène underground à cette époque, l’art, la musique, la poésie qui m’ont retenues là quelques temps, plutôt que le milieu architectural, que je trouvais franchement ennuyeux.</phrase>
+  <phrase>Mais j’étais sans cesse ému par l’espèce de force urbanistique de la ville.</phrase>
+  <phrase>Puis vint mai 68.</phrase>
+  <phrase>L’idée même d’architecture ou d’urbanisme me semblait académique, ou autoritaire, dépassée.</phrase>
+  <phrase>Inapte à changer le monde.</phrase>
+  <phrase>Vers 1970, j’ai participé aux recherches du groupe de psychosociologie réuni par Jacqueline Palmade et Françoise Lugassy sur le vécu des habitants des <dyn accompli="oui" nature="crea" n="1"><lieu type="obj" n="1"><res n="1">quartiers</res></lieu> nouveaux</dyn>.</phrase>
+  <phrase>C’était presque par hasard, suite à un entretien.</phrase>
+  <phrase>À ce moment là, il y avait à Paris une effervescence.</phrase>
+  <phrase>Nous étions baignés dans le structuralisme, et la recherche.</phrase>
+  <phrase>Il y avait une approche pluridisciplinaire avec des sociologues, des épistémologues, des psychanalystes, des économistes.</phrase>
+  <phrase>Chacun analysait des entretiens, des « rêves éveillés », menés en grand nombre auprès des habitants.</phrase>
+  <phrase>On entendait des critiques, des plaintes un peu anxieuses.</phrase>
+  <phrase>Et cela m’a réappris, je crois, l’importance de l’urbanisme.</phrase>
+  <phrase>Il <dyn n="1"><perc type="autre" n="1">fallait</perc> bien s’occuper des <lieu type="obj" n="1">villes</lieu></dyn>.</phrase>
+  <phrase>Mais j’ai appris une autre chose : à toutes ces analyses excellentes, l’une marxiste, l’autre freudienne, l’autre économique, etc., il échappait quelque chose : la faculté de comprendre et de rendre compte de l’espace – du visible qui était sans cesse évoqué dans ces entretiens.</phrase>
+  <phrase>Et cela, c’était le domaine de l’architecture.</phrase>
+  <phrase>Au même moment, la notion de sémiologie envahissait toutes les disciplines.</phrase>
+  <phrase>Son application à l’architecture, parfois brillante, me paraissait pourtant abusive : là encore, la dimension centrale de l’espace échappait au discours.</phrase>
+  <phrase>Et je m’interrogeais : comment pense-t-on l’espace ?</phrase>
+  <phrase>Il m’apparaissait que l’essentiel dans la ville, dans la perception de l’architecture et des lieux, ne passe pas par le langage.</phrase>
+  <phrase>Ne se laisse pas comprendre à travers les catégories du langage.</phrase>
+  <phrase>Ou alors, on a un code réducteur.</phrase>
+  <phrase>Ceci m’a conduit à un projet de recherche pour le Corda [1], sur ce que j’appelais « Les unités signifiantes dans la ville ».</phrase>
+  <phrase>Je voulais m’intéresser ainsi à ce que l’on perçoit d’une ville, à ce qui en fait la forme, à « l’effet de présence » propre à l’architecture, par opposition à l’effet de sens, à l’idée sémiotique.</phrase>
+  <phrase>C’était pour moi le retour à l’architecture.</phrase>
+  <phrase>Il y avait un courant chez Candilis, qui, au nom de la liberté des habitants, voulait en finir avec « la forme » jugée arbitraire.</phrase>
+  <phrase>J’aimais l’ambition utopique de Candilis, avec ses trames, ses réseaux : une casbah industrialisée.</phrase>
+  <phrase>Nous étions attirés par « l’architecture sans architectes » : néo-naturalisme de l’époque...</phrase>
+  <phrase>Pourtant, depuis mon séjour à New York, et mon travail sur les rêves des habitants, je pensais qu’il s’agissait d’une impasse, qu’il fallait se poser la question de la perception.</phrase>
+  <phrase>Au même moment, j’ai commencé à travailler, avec Antoine Grumbach, sur les espaces publics de la « liaison organique » que concevait Michel Macary à Marne la Vallée.</phrase>
+  <phrase>À cette occasion, nous nous sommes promenés à travers l’Europe, de Gênes à Amsterdam, pour analyser et étudier <dyn accompli="oui" nature="crea">des aménagements de <lieu type="obj">lieux publics</lieu></dyn>.</phrase>
+  <phrase>En 1971, je propose à la ville nouvelle <dyn accompli="non">le projet du <lieu type="obj">Château d’eau</lieu></dyn>.</phrase>
+  <phrase>Il s’agit de <dyn accompli="non" nature="repr" proces="iter">recomposer <res>en rond-point</res> <lieu type="obj">la rencontre d’une avenue et d’un échangeur routier</lieu></dyn>.</phrase>
+  <phrase>Dans le droit fil de mon thème de recherche Corda, j’ai l’idée d’<lieu type="loc" n="1">y</lieu> <dyn accompli="non" nature="crea" n="1">placer un grand objet</dyn> : une unité signifiante, un repère physique dans <lieu type="obj" n="2">une ville</lieu> qui <dyn accompli="non" nature="crea" n="2">va se constituer</dyn>.</phrase>
+  <phrase>Et il m’arrive cette chose curieuse : je m’aperçois que je peux travailler sur <dyn accompli="non">ce projet du <lieu type="obj">Château d’eau</lieu></dyn> ou sur la recherche, mais pas sur les deux en même temps.</phrase>
+  <phrase>D’un côté, le texte, de l’autre, le visible et le physique.</phrase>
+  <phrase>J’ai choisi le projet, abandonnant à regret ce contrat de recherche théorique.</phrase>
+  <phrase>L’expérience pratique de l’architecture</phrase>
+  <phrase><tps axe_temp="pas" absolu="oui">En 1974</tps>, <dyn accompli="oui" nature="crea"><lieu type="obj">le Château d’eau</lieu> étant construit</dyn>, je réponds à un concours pour l’îlot de La Roquette à Paris, et dépose le projet au concours du Pan [2], dont je suis lauréat. Ceci me vaut d’être invité par la RIVP (Régie immobilière de la ville de Paris) à un concours dans le XIII e arrondissement, en un lieu auquel je redonnerai son nom d’origine, relevé sur un ancien plan : les Hautes Formes</phrase>
+  <phrase>[1] Corda: Comité de la recherche et du développement en architecture, créé en 1972.</phrase>
+  <phrase>[2] Pan: Programme architecture nouvelle, concours destiné à encourager la commande aux jeunes architectes, créé en 1973.</phrase>
+  <phrase>La Roquette et les Hautes Formes</phrase>
+  <phrase>J’avais conçu <dyn accompli="non" n="1">le projet de <lieu type="obj" n="1">La Roquette</lieu></dyn> comme un manifeste pour l’espace, pour le vide comme forme dans la ville, à une époque où on ne voyait que l’objet – qu’il soit bâti ou sorti d’usine.</phrase>
+  <phrase>Voir le vide et non simplement l’objet, le plein, c’est un retournement de point de vue.</phrase>
+  <phrase>Avec les Hautes Formes, ma préoccupation est : comment une architecture contemporaine peut traiter <lieu type="obj" n="1+2">la ville existante</lieu>, la <dyn nature="modif" n="1">transformer</dyn> et <dyn nature="destr+modif" n="2">non plus l’<perc type="axiol" pol="neg" n="2">éradiquer</perc>, et s’y substituer</dyn>.</phrase>
+  <phrase>Et comment elle <dyn accompli="non" nature="modif"><perc type="autre">peut</perc> transformer <perc type="axiol" pol="pos">positivement</perc> <lieu type="obj">cette ville</lieu></dyn>.</phrase>
+  <phrase>C’est <dyn n="1">un projet d’architecture</dyn>, mais c’est aussi <dyn n="2">une intervention urbaine</dyn>, puisque j’ai proposé l’acquisition d’un petit bout de terrain supplémentaire qui <dyn n="3"><perc type="autre" n="3">permettait</perc> de rendre <lieu type="obj" n="3">l’îlot</lieu> traversant</dyn>.</phrase>
+  <phrase>Cet îlot était fermé, en impasse.</phrase>
+  <phrase>Dans ce projet, l’architecture <dyn>construit <lieu type="obj">la ville</lieu></dyn>.</phrase>
+  <phrase>Il s’agit de penser que le lieu comme résultat vécu, comme ambiance totale, compte toujours plus que l’objet bâti, même si je prends en compte la question de l’objet.</phrase>
+  <phrase>Cette notion de <dyn nature="modif">transformation urbaine</dyn> à partir des vides habités me conduit à une recherche sur l’îlot.</phrase>
+  <phrase>Une sorte de micro urbanisme.</phrase>
+  <phrase>J’avais la conviction que, pour <dyn>agir sur la question urbaine</dyn>, il fallait revenir à cette dimension intermédiaire entre le quartier et l’immeuble : à partir de quelle unité signifiante pouvait-on raisonner au-delà du logement, et autrement qu’en termes d’accumulations ?</phrase>
+  <phrase>L’immeuble autonome moderne était-il encore une forme pertinente ?</phrase>
+  <phrase>L’immeuble classique aligné sur rue était-il encore légitime, alors qu’en bien des lieux, l’idée même de rue était devenue impossible ?</phrase>
+  <phrase>Sur le plan de la logique, je me trouvais dans une certaine continuité de méthode avec le Team X de Candilis et des Smithson.</phrase>
+  <phrase>Ils s’étaient intéressés à la notion de quartier, ou de groupes – les clusters – pour <dyn>remettre en question <lieu type="obj">l’unité des immeubles</lieu></dyn>.</phrase>
+  <phrase>Mais sur le plan de la conception et de la perception de l’espace, sur le rôle du temps, j’étais en opposition avec Team X : pour moi, l’îlot, est une partition de vide et de matière bâtie, alors qu’ils amoncelaient plutôt des cellules.</phrase>
+  <phrase>J’étais un peu contre ces agglomérations cristallines.</phrase>
+  <phrase>Sur le plan éthique, elles se voulaient égalitaires.</phrase>
+  <phrase>Mais elles refusaient l’histoire, la géographie, l’existant, cette accumulation d’objets supposait des sites vierges.</phrase>
+  <phrase>Je pensais alors que l’on allait au contraire rencontrer de plus en plus, et partout, des sites complexes, des espaces mi-urbains, mi-îlots irréguliers où ne s’appliqueraient ni la notion de l’immeuble entre mitoyens ni le concept de l’immeuble-objet autonome de la théorie moderne.</phrase>
+  <phrase>Précisément, c’est ce qui s’est passé.</phrase>
+  <phrase>Paris XIe, La Roquette Après le Château d’eau, objet-centre, c’est l’autre projet fondateur: un retournement de point de vue, qui fait de l’espace, du vide, une forme dans la ville. (Concours, 1974</phrase>
+  <phrase>Paris XIIIe, Les Hautes Formes À l’occasion d’un programme de logements pour la RIVP, première intervention vraiment « urbaine »: répartis autour d’<dyn nature="crea">un nouvel <lieu type="obj"><res>espace public</res></lieu></dyn>, les immeubles forment, déjà, un îlot ouvert, traversé de vues et de lumière. (Avec Georgia Benamo, 1973-1979)</phrase>
+  <phrase>Les gammes: des projets dans les îlots</phrase>
+  <phrase>Pendant les Hautes Formes, je commence un concours pour Cergy-Pontoise que je ne rendrai pas mais j’y travaille cette idée de penser, à grande échelle, ces îlots ouverts.</phrase>
+  <phrase>C’est-à-dire : reprendre l’ouverture à la lumière, au ciel et à la vue que propose l’immeuble autonome de la théorie moderne, mais faire cela avec une densité urbaine, une mixité entre habitat, activités, commerces.</phrase>
+  <phrase>J’avais pensé, il faut le dire, à la fin des années soixante-dix, <dyn accompli="non">faire une sorte de projet de <lieu type="obj">ville utopique, théorique</lieu></dyn> avec ses îlots ouverts.</phrase>
+  <phrase>Mais <perc type="axiol" pol="neg" n="1+2">je me méfiais par-dessus tout de faire</perc> <dyn accompli="non" n="1">un projet générique</dyn>, de proposer la clé qui ouvre tout, <dyn accompli="non" n="2">le nouveau modèle</dyn>, comme <act type="pers_ind" n="2">Le Corbusier</act> l’avait fait.</phrase>
+  <phrase>J’avais une méfiance profonde de la naïveté planificatrice face à la complexité de la ville.</phrase>
+  <phrase>Mais bien plus que par l’envie de théoriser une idée de ville, <perc type="axiol" n="1+2">j’étais animé par l’obsession</perc> de <dyn accompli="non" nature="crea" n="1">construire</dyn>, de <dyn accompli="non" nature="crea" n="2">faire réellement apparaître <lieu type="obj" n="2">les choses</lieu></dyn>, apprendre de la pratique.</phrase>
+  <phrase>Oublier ces années de théorie et d’écriture sophistiquées, pour apprendre à partir de la pratique concrète.</phrase>
+  <phrase>J’ai participé alors à de nombreux concours, à Paris où ailleurs, dans lesquels <act type="pers_ind">j</act>’<dyn accompli="non" nature="crea" n="1">ouvrais <lieu type="obj" n="1">des îlots irréguliers, impossibles</lieu></dyn>, <lieu type="loc" n="1">dans les laissés pour compte de la ville classique</lieu> ou de <dyn accompli="non" nature="repr" proces="iter" n="2">la « rénovation » planifiée</dyn>.</phrase>
+  <phrase>Tous ces projets étaient refusés.</phrase>
+  <phrase>Par exemple un concours pour un foyer de personnes âgées rue du Montparnasse (La Maison des Artistes, 1982), un autre rue Singer à Paris (1982), la ZAC Saussure (1983), toujours à Paris.</phrase>
+  <phrase>Mais <dyn accompli="non" n="1">ces gammes sur <lieu type="obj" n="1">l’îlot ouvert</lieu></dyn> ont beaucoup contribué à nourrir ma réflexion théorique.</phrase>
+  <phrase>Ils étaient, au choix, <dyn accompli="non" n="1">des exercices sur « l’architecture dans la ville »</dyn>, ou sur <dyn n="2">« faire <lieu type="obj" n="2">la ville</lieu> avec l’architecture »</dyn>.</phrase>
+  <phrase>Par exemple, <act type="pers_ind">j</act>’<dyn accompli="oui" nature="crea">ai construit <tps axe_temp="pas">à cette époque</tps> <lieu type="obj"><res>un foyer de personnes âgées</res></lieu></dyn> <lieu type="loc">sur une parcelle curieuse</lieu>, <lieu type="loc">entre deux pignons modernes non alignés</lieu>, qui donne à la rue du Château des Rentiers (1982, Paris XIIIe) une nouvelle lisibilité.</phrase>
+  <phrase>En 1981 je me souviens d’un jury de quatre jours pour la Lutzow Platz à Berlin, où <act type="pers_ind" n="1">je me suis opposé</act> au point de vue de l’IBA [3] et au <dyn accompli="non" nature="repr" proces="iter" n="1">retour de <lieu type="obj" n="1">la ville classique d’îlots fermés</lieu></dyn>, qui était leur dogme, défendant <dyn accompli="non" nature="crea" n="2">les rares projets qui ouvraient <lieu type="obj" n="2">ce grand îlot vert</lieu></dyn> et en habitaient l’intérieur avec des immeubles autonomes et des espaces publics.</phrase>
+  <phrase>Incompréhension des maîtres de céans.</phrase>
+  <phrase>Puis j’ai participé à de grands concours, comme celui de l’Opéra de la Bastille, où je pose la question de la place de la Bastille et de sa lisibilité et, dans un tout autre contexte, ceux de l’École de Danse au bord du parc de Nanterre, de la Cité de la Musique à l’entrée du Parc de La Villette.</phrase>
+  <phrase>Ce sont de grands sites, qui <dyn>induisent <lieu type="obj">de nouveaux espaces publics</lieu> et des architectures</dyn>.</phrase>
+  <phrase>La démarche de projet fonctionne dans l’échange entre le programme et l’espace du site, de l’extérieur vers l’intérieur et vice-versa.</phrase>
+  <phrase>La logique fonctionnelle rencontre la logique du site urbain.</phrase>
+  <phrase>Accords de pleins et de vides.</phrase>
+  <phrase>Je ne sépare pas une façon de penser l’architecture pour <dyn nature="modif" n="1">transformer <lieu type="obj" n="1">la ville</lieu></dyn>, d’<dyn accompli="non" n="2">une vision de <lieu type="obj" n="2">la ville</lieu></dyn> sans laquelle je ne peux penser l’architecture d’une manière féconde, y compris pour son organisation interne.</phrase>
+  <phrase>Les deux grands îlots de la Cité de la Musique à La Villette sont des îlots très idiosyncrasiques, « artistiques », liés à un programme très spécifique, mais ce sont des îlots ouverts.</phrase>
+  <phrase>Et sans ce concept d’ouverture, il aurait été impossible de faire vivre ensemble les quelques deux milles personnes qui travaillent au Conservatoire, véritable petite ville en soi. Pendant toute cette période, j’ai continué <dyn accompli="non" n="1">mes gammes sur ce thème urbain</dyn> sans en prendre véritablement conscience</phrase>
+  <phrase>Vers la grande dimension urbaine</phrase>
+  <phrase>Curieusement, <tps axe_temp="pas" n="1">après cette période</tps> de <dyn nature="crea" n="1">création architecturale <perc type="axiol" n="1">intense</perc></dyn>, j’ai eu, <tps axe_temp="pas" type="dur" n="2">à partir de 1988</tps>, une série de commandes de <dyn accompli="non" n="2">projets urbains</dyn>.</phrase>
+  <phrase>À l’époque, certains disaient qu’il ne fallait plus faire d’urbanisme, au sens où il ne fallait plus encadrer l’architecture ; que c’était académique.</phrase>
+  <phrase>Mais les villes étaient confrontées à de grands défis.</phrase>
+  <phrase>Ce furent les concours pour Atlanpole à Nantes, puis de Strasbourg, Metz, Aix-en-Provence, ou des commandes à Toulouse et Montpellier...</phrase>
+  <phrase>Tous <dyn accompli="non" n="1">des projets à grande échelle</dyn>, tantôt situés <lieu type="loc" n="1">dans la ville intra-muros, comme à Metz ou à Aix</lieu>, tantôt <lieu type="loc" n="1">dans des périphéries, comme à Montpellier</lieu>, ou bien encore <lieu type="loc" n="1">entre deux villes comme à Strasbourg-Neudorf</lieu>.</phrase>
+  <phrase>Avec Atlanpole, je vais enfin pouvoir dessiner <dyn accompli="non" n="1">un projet issu de <lieu type="obj" n="1">la trame d’îlots ouverts</lieu></dyn> à laquelle j’avais pensé pour Cergy.</phrase>
+  <phrase>Ce qui m’est apparu passionnant alors, c’est la perception que chaque cas est unique : nouveau film, nouvelle prise de position, nouveau scénario pour vivre mieux.</phrase>
+  <phrase>J’ai pu ainsi tester la fécondité du concept d’îlot ouvert au travers de situations incroyablement variées.</phrase>
+  <phrase>Cette disparité extraordinaire des lieux légués par la géographie et par l’histoire m’a conduit à m’interroger sur ce retour du contingent, du cas particulier, après toute une évolution historique qui a conduit au contraire, dans l’époque précédente, à l’idée de l’universel, du type, de la série, à l’abolition des cas particuliers.</phrase>
+  <phrase>Toutes les théories du XXe siècle représentaient, dans la pensée et dans le faire, l’apogée de l’universalisme comme finalité de l’histoire.</phrase>
+  <phrase>Dans le domaine de l’urbanisme, le retour du contingent dans l’époque moderne, qui était synonyme de son élimination, devient grandiose.</phrase>
+  <phrase>La fin de l’époque du champ de betteraves, de <dyn nature="destr">la tabula rasa</dyn>, marquait pour moi le signe de notre nouvelle modernité : un bouleversement complet, l’empirisme pratique d’Aristote contre la Cité Idéale de Platon.</phrase>
+  <phrase>Or, je ne voulais pas que ce retour du travail au cas par cas devienne une régression passéiste.</phrase>
+  <phrase>À partir des propositions de l’existant, il s’agit donc de bâtir des sortes de scénarios de films à réaliser à plusieurs, accordant espace et bâti.</phrase>
+  <phrase><lieu type="obj" n="1">Les îlots</lieu> <dyn nature="modif" n="1"><perc type="autre" n="1">peuvent</perc> devenir <res n="1">des îles dans la verdure</res></dyn>, comme <lieu type="loc" n="1">à Montpellier</lieu>.</phrase>
+  <phrase><lieu type="loc">Ailleurs</lieu>, il <dyn accompli="non" nature="modif"><perc type="autre">faut</perc> transformer <lieu type="obj">la ville</lieu></dyn> à partir de ses potentiels très forts.</phrase>
+  <phrase>À Strasbourg, à Aix, c’est crucial.</phrase>
+  <phrase><lieu type="loc" n="1">À Bordeaux</lieu>, avec <dyn n="1">le travail sur <lieu type="obj">le Port de la Lune</lieu></dyn> [4], je m’intéresse à <dyn accompli="non" nature="crea" n="2">un nouveau <lieu type="obj" n="2"><res n="2">centre linéaire</res></lieu></dyn>, long de quatre kilomètres, et à la lisibilité de la ville, à l’effet de présence des espaces et de l’architecture.</phrase>
+  <phrase>Bordeaux, Port de la Lune Sur les 4 kilomètres des quais de Garonne, l’une des premières approches de la grande dimension urbaine, ici linéaire et ponctuée d’objets signifiants: une réflexion sur la présence de l’architecture dans la ville. (Concours d’idées, 1989)</phrase>
+  <phrase>[4] Port de la Lune: appel d’idées lancé par la ville de Bordeaux sous le mandat de Jacques Chaban-Delmas pour l’aménagement des quais de la Garonne</phrase>
+  <phrase>L’îlot à nouveau</phrase>
+  <phrase>De cette période de la fin des années quatre-vingt, je retiens surtout la prise en compte de l’aléatoire avec risque, plaisir, confiance et méthode.</phrase>
+  <phrase>C’est le saut que j’ai fait à Atlanpole.</phrase>
+  <phrase>En 1978, lors du projet jamais rendu au concours de Cergy-Pontoise, j’avais encore un plan masse constitué d’îlots ouverts.</phrase>
+  <phrase>En 1988, j’ai imaginé l’îlot ouvert comme un système permettant d’accueillir l’aléatoire, l’inconnu, et de s’ouvrir à la diversité programmatique, volumétrique et architecturale.</phrase>
+  <phrase>S’affranchir du plan-masse n’est pas chose facile.</phrase>
+  <phrase>Le principe est de ne pas prédéfinir les volumes et les implantations ou, du moins, de laisser une bonne marge d’interprétation à leur conception.</phrase>
+  <phrase>Je donne une règle du jeu qui permet à une grande variété de volumes et d’implantations de « travailler » ensemble.</phrase>
+  <phrase>Cet aléatoire tend vers une ville accueillante à la mixité des usages et des fonctions.</phrase>
+  <phrase>Il est aussi un moyen d’ouvrir théoriquement un champ de liberté à des architectures qui peuvent se côtoyer, exister chacune dans leur individualité, et pourtant être assemblées par l’unité volumétrique de la rue. Cet accueil calculé de l’inconnu répond à une question moderne, celle de l’entropie, de l’éclatement architectural, de la disparité sans fin des egos des architectes, des propositions individuelles et des « styles », toujours perçue comme <dyn accompli="non" proces="termin">la fin de l’unité et de la cohérence de <lieu type="obj">la Ville</lieu></dyn> et, partant de la communauté</phrase>
+  <phrase>Je suis très opposé à ce postulat maintes fois répété selon lequel l’architecture représenterait l’évolution, le changement des modes, tandis que <lieu type="obj">la ville</lieu>, elle, incarnerait <dyn accompli="non" nature="maint">la permanence</dyn>.</phrase>
+  <phrase>Et qu’elle aurait <dyn accompli="non" nature="maint" proces="dur"><lieu type="obj">des formes</lieu> immuables</dyn>.</phrase>
+  <phrase>Notre temps nous montre que <dyn accompli="non" nature="maint" proces="dur">cette permanence</dyn> n’existe plus.</phrase>
+  <phrase>Nous avons connu <dyn accompli="oui">l’éclatement physique de <lieu type="obj">la ville</lieu></dyn>, et ensuite l’éclatement théorique des règles urbaines.</phrase>
+  <phrase>Pour la première fois dans l’histoire, il n’y a plus de doctrine partagée, de prose commune pour <dyn>faire <lieu type="obj">la ville</lieu></dyn>.</phrase>
+  <phrase>Nous devons évidemment faire évoluer nos méthodes, nos idées des espaces urbains, sous peine de <dyn accompli="non"><perc type="axiol" pol="neg">« muséographier »</perc> <lieu type="obj">les centres-ville</lieu></dyn> et de désespérer les périphéries.</phrase>
+  <phrase>L’îlot ouvert</phrase>
+  <phrase>L’îlot ouvert donne une expression forte de la ville comme espace public.</phrase>
+  <phrase>Il assemble la pluralité des individus, les bâtiments hétérogènes et singuliers.</phrase>
+  <phrase>Il est ouvert à l’aléatoire.</phrase>
+  <phrase>L’îlot est ouvert parce que les immeubles ne sont pas mitoyens.</phrase>
+  <phrase>Ils sont autonomes.</phrase>
+  <phrase>Ils ont leur propre volume, leurs propres matériaux.</phrase>
+  <phrase>Pourtant la rue les assemble, par des pans de façades alignées.</phrase>
+  <phrase>Son espace est parfaitement sensible en dépit de la discontinuité des façades.</phrase>
+  <phrase>Cette autonomie des immeubles implique que l’on n’aligne pas non plus les hauteurs : on joue sur des hauteurs différentes, ce qui permet de faire mieux entrer la lumière et donne une dynamique verticale à la rue.</phrase>
+  <phrase>C’est l’interruption du bâti, de 30 à 50 % qui crée l’ouverture visuelle de l’îlot.</phrase>
+  <phrase>Éclairant mieux <lieu type="obj">les rues</lieu>, on <dyn accompli="non" nature="crea"><perc type="autre">peut</perc> donc les tracer plus étroites</dyn>.</phrase>
+  <phrase>On offre des vues traversant les îlots en évitant les cours intérieures génératrices de claustrophobie.</phrase>
+  <phrase>Chaque logement dispose de trois orientations et de nombreuses vues, proches et lointaines.</phrase>
+  <phrase>Les espaces privés sont plantés.</phrase>
+  <phrase>En définitive il n’y a pas de plan masse.</phrase>
+  <phrase>S’il n’y a qu’un programme dans l’îlot, la liberté est grande. S’il y en a plusieurs, on fait des « fiches » d’îlots, qui proposent aux architectes des volumes-enveloppes virtuels, plus grands que <dyn accompli="non" nature="crea" n="1"><lieu type="loc" n="2">les volumes constructibles</lieu></dyn>, à l’intérieur desquels <act type="pers_coll" n="2">ils</act> <dyn nature="crea" n="2">installent <lieu type="obj" n="2"><res n="2">leurs bâtiments</res></lieu></dyn></phrase>
+  <phrase>Atlanpole et les « îles » bâties</phrase>
+  <phrase>En 1988, la SEM Atlanpole organise une consultation pour <dyn accompli="non" nature="crea">un projet de <lieu type="obj"><res>technopôle</res></lieu></dyn> <lieu type="loc">sur les bords de l’Erdre, à Nantes</lieu>.</phrase>
+  <phrase>Il s’agit d’<dyn accompli="non" nature="crea">accueillir <lieu type="obj">quantité de programmes distincts</lieu> – <lieu type="obj">habitat</lieu>, <lieu type="obj">recherche</lieu>, <lieu type="obj">industrie</lieu></dyn>...</phrase>
+  <phrase>– <lieu type="loc">sur un immense site de campagne long de quatre kilomètres</lieu>.</phrase>
+  <phrase>Je mène donc d’abord un travail sur le rapport ville-campagne, la perception à grande échelle, <dyn accompli="non" nature="crea" n="1">en constituant des <lieu type="obj" n="1">« îles » bâties</lieu></dyn>, posées « à bords francs » <lieu type="loc" n="1">sur les grands espaces de campagne et de marais écologiquement intéressants</lieu>, et <dyn accompli="non" nature="maint" n="2">en préservant <lieu type="obj" n="2">les villages existants</lieu></dyn>.</phrase>
+  <phrase>C’est un archipel de ce que j’appelle les « Mont-Saint-Michel », avec leurs fronts bâtis tournés vers la nature.</phrase>
+  <phrase><lieu type="obj" n="1">Quatre grandes îles</lieu> <dyn n="1">sont définies</dyn>.</phrase>
+  <phrase>Une grande trouée large de 60 mètres de large, dans l’axe de la plus haute tour du centre-ville de Nantes, permet de percevoir l’ensemble à grande échelle, de se l’approprier physiquement.</phrase>
+  <phrase>Cette grande échelle de perception, que je trouve importante, manque presque toujours dans les périphéries.</phrase>
+  <phrase><act type="pers_ind" n="1">J</act>’<dyn n="1">installe aussi <lieu type="loc" n="1">dans le site</lieu> ce que nous appelions <lieu type="obj" n="1">les « scarifications »</lieu></dyn> : des lignes transversales qui <dyn n="2"><perc type="autre" n="2">permettaient</perc> de viabiliser et d’entretenir <lieu type="obj" n="2">la campagne</lieu></dyn>.</phrase>
+  <phrase>Elles marquaient le territoire tous les 417 mètres.</phrase>
+  <phrase>Ces structures physiques fondent une compréhension de la ville, en donnent la mesure dans le grand territoire, permettent une perception forte, évidente du site urbain dans sa grande dimension.</phrase>
+  <phrase>Mais la grande nouveauté d’Atlanpole réside dans le fonctionnement des îlots.</phrase>
+  <phrase>Pour la première fois, <act type="pers_ind">je</act> <dyn accompli="non" nature="crea">mets en place <lieu type="obj">les îlots ouverts auxquels je pensais depuis Cergy</lieu></dyn>.</phrase>
+  <phrase>Ici j’ai formalisé clairement une règle des îlots ouverts sur une grille « Hippodamienne » [5].</phrase>
+  <phrase>Ces îlots <dyn nature="crea">construisent <lieu type="obj"><res>les rues</res></lieu></dyn>, autonomisent les bâtiments et accueillent le plus large aléatoire.</phrase>
+  <phrase>Pour cela, à l’atelier, nous avons testé un grand nombre des programmes variés qui avaient été demandés à l’aménageur : écoles de haut niveau, laboratoires, habitat...</phrase>
+  <phrase>Nous avons fait des simulations en volumes de <dyn accompli="non" nature="crea">l’installation de <lieu type="obj">chacun de ces programmes</lieu></dyn> dans la règle de l’îlot ouvert.</phrase>
+  <phrase>Mon idée était que les preneurs venaient avec leur programme, leur esquisse architecturale et leur demande de surface.</phrase>
+  <phrase>L’urbaniste et l’aménageur leur trouvaient une place dans le damier : il y a une grille, mais il n’y a plus de plan masse figé.</phrase>
+  <phrase>Les ouvertures obligatoires de l’îlot permettraient de régler au mieux les prospects sur rue de chaque programme en leur donnant dégagement et lumière.</phrase>
+  <phrase>Le projet d’Atlanpole n’aura pas de suite pour causes de crise de l’immobilier et de mutations politiques.</phrase>
+  <phrase>Ce fut pour moi une grande déception.</phrase>
+  <phrase>[5] Hippodamienne: du nom de l’architecte grec Hippodamos (494-479 avant J.-C.) auquel est attribué le plan en damier de la ville de Milet.</phrase>
+  <phrase>Aix-en-Provence (1989)</phrase>
+  <phrase>À Aix, la lecture des grandes unités historiques de la ville montre que l’on <dyn accompli="non" nature="crea"><perc type="autre">peut</perc> déployer, <lieu type="loc">de l’autre côté de la Place de la Rotonde</lieu>, <lieu type="obj">un prolongement du Cours Mirabeau</lieu></dyn> aboutissant à un parc aquatique et à un front bâti d’îlots de logements.</phrase>
+  <phrase>Cette « lecture » associant la modernité et l’histoire paraît évidente pour la ville.</phrase>
+  <phrase>De la même façon, <tps axe_temp="pas" type="dur" absolu="oui">au XVIII e siècle</tps>, le Cours Mirabeau <perc type="autre">avait permis</perc> de <dyn accompli="oui" nature="crea">déployer <lieu type="obj">un nouveau territoire</lieu></dyn> <lieu type="loc">le long de la ville médiévale</lieu>.</phrase>
+  <phrase>Le projet fut classé second.</phrase>
+  <phrase>Metz, place Coislin (1990)</phrase>
+  <phrase>À Metz, le concours pour la place Coislin portait sur un ensemble d’urbanisme et d’architecture très complexe, au cœur de la ville médiévale et entouré de « barres » et de tours des années soixante, pas très aimées.</phrase>
+  <phrase>J’ai invité ces tours dans la danse pour <dyn accompli="non">imaginer <lieu type="obj">un mini downtown</lieu></dyn>.</phrase>
+  <phrase>C’est <dyn accompli="non">un projet d’architecture</dyn> <lieu type="loc">à l’échelle d’un quartier</lieu>, au programme pluriel, où chaque opérateur était présent dès le début.</phrase>
+  <phrase>C’est aussi <dyn accompli="non" n="1">un projet urbain</dyn>, puisqu’il est à une échelle où <act type="pers_ind" n="2">je</act> <dyn accompli="non" nature="crea" n="2"><perc type="autre" n="2">ne pouvais</perc> pas concevoir <lieu type="obj" n="2">tous les bâtiments</lieu></dyn>.</phrase>
+  <phrase>Ce travail de six mois n’a même pas été regardé...</phrase>
+  <phrase>Toulouse (1991)</phrase>
+  <phrase>Nous avons ensuite travaillé, à Toulouse, sur un grand morceau de la ville intramuros, le long du Canal du Midi.</phrase>
+  <phrase>Il s’agissait de <dyn accompli="non" nature="crea">construire <lieu type="obj"><res>un quartier contemporain</res></lieu></dyn> <lieu type="loc">dans la continuité de l’espace public des quartiers anciens</lieu>.</phrase>
+  <phrase>Nous installons alors deux échelles de travail, deux modes de perception du quartier : l’une traversante (des allées plantées) l’autre locale (des îlots construits).</phrase>
+  <phrase>Les allées <dyn accompli="non">structurent <lieu type="obj">la ville</lieu> à grande échelle</dyn>.</phrase>
+  <phrase>Localement, on retrouve le travail sur l’îlot ouvert, avec une typologie qui varie en fonction des programmes.</phrase>
+  <phrase>Le long du Canal, nous cherchons l’unité, une certaine régularité aussi.</phrase>
+  <phrase><dyn accompli="non" nature="crea">L’aménagement</dyn> <perc type="axiol">est donc régulier</perc>, unifié par la teinte brique qui renforce la couleur et la beauté de ce site exceptionnel.</phrase>
+  <phrase><dyn accompli="non">Le traitement paysager des <lieu type="obj">espaces publics</lieu></dyn> appuie la cohérence du paysage urbain, et le rend clairement lisible.</phrase>
+  <phrase>L’arbre y tient une place particulière.</phrase>
+  <phrase>Il est considéré comme un élément structurant de première importance, un élément constitutif du patrimoine urbain.</phrase>
+  <phrase><dyn accompli="non" n="1">Ce projet</dyn>, voulu et commandé par <act type="pers_coll" n="1">des promoteurs privés</act> à la suite du <dyn n="2">projet <lieu type="obj" n="2">Sextius Mirabeau</lieu></dyn> <lieu type="loc" n="2">d’Aix-en-Provence</lieu>, <res n="1">a donné lieu à d’importantes études pour un plan d’urbanisme qui fût ensuite discuté avec la municipalité</res>. Nous les avons poursuivies pendant quelques années avant de buter, là aussi, sur la crise économique</phrase>
+  <phrase>Strasbourg-Place de l’Étoile (1991)</phrase>
+  <phrase>À Strasbourg, il s’agissait vraiment d’un enjeu formidable entre deux villes : <dyn>réunir <lieu type="obj">le Strasbourg ancien et le Neudorf</lieu></dyn>, cette ville du XIXe siècle, séparés par un large couloir de 500 mètres dans lequel passent un canal et une autoroute.</phrase>
+  <phrase>Pour moi, il s’agissait de profiter de <lieu type="obj" n="1">ce vide</lieu>, <dyn accompli="non" nature="crea" n="1">non pas pour le remplir de constructions</dyn> et <dyn accompli="non" n="2">fusionner <lieu type="obj" n="2">tout le territoire urbain</lieu></dyn> – ce qui était l’idée retenue – mais pour offrir là une perception de cette ville duelle, du territoire urbain à grande échelle, tout <dyn accompli="non" nature="crea" n="3">en faisant <lieu type="obj" n="3"><res n="3">une entrée de ville</res></lieu></dyn>.</phrase>
+  <phrase>Au lieu d’avoir peur de ce vide, je proposais de magnifier la beauté de ce face à face, de lui donner une consistance de centralité formidable, grâce à <dyn accompli="non" nature="crea" n="1">la création d’<lieu type="obj" n="1"><res n="1">un parc</res></lieu></dyn> et à la présence de l’eau du <dyn accompli="non" nature="modif" n="2"><lieu type="obj" n="2">canal</lieu>, agrandi</dyn> pour l’occasion.</phrase>
+  <phrase>Au centre du parc, où se trouve déjà l’immeuble de la Communauté Urbaine, <perc type="axiol" n="1">je proposais</perc> <dyn accompli="non" nature="crea" n="1">une « <lieu type="obj" n="1"><res n="1">île</res></lieu> bâtie »</dyn>, <obj n="1"><dyn n="2">réunissant <lieu type="obj" n="2">le centre de congrès demandé</lieu> et <lieu type="obj" n="2">les bureaux de la communauté urbaine</lieu></dyn></obj>.</phrase>
+  <phrase>C’était une sorte d’Île de la Cité institutionnelle, au cœur d’un parc traversé par le tramway, visible depuis <lieu type="obj" n="1+2">les deux rives</lieu>, les <dyn accompli="non" n="1">liant</dyn> ainsi, <dyn accompli="non" n="2">non pas en les suturant</dyn>, mais en leur donnant chacune à se voir mutuellement, des deux côtés de la ville.</phrase>
+  <phrase>Rue Nationale, Paris XIIIe (1990)</phrase>
+  <phrase>En 1990, je travaille sur <lieu type="obj">un îlot du XIII e arrondissement</lieu> que Michel Lombardini, le président de la Régie immobilière de la Ville de Paris, me demande de <dyn accompli="oui" nature="modif">transformer</dyn>, <lieu type="loc">tout près des Hautes Formes et de la rue du Château des Rentiers</lieu>, où j’avais déjà affronté deux situations urbaines très différentes.</phrase>
+  <phrase>Une troisième situation se présente ici : <dyn accompli="oui" nature="modif+repr" proces="iter">la transformation-réhabilitation des <lieu type="obj">grandes barres de logements</lieu></dyn> <lieu type="loc">de la rue Nationale</lieu>.</phrase>
+  <phrase>Le sujet est d’avenir.</phrase>
+  <phrase>Il s’agit de <dyn accompli="oui" nature="modif" n="1">transformer des <lieu type="obj" n="1">immeubles « à vue »</lieu></dyn>, sans déménager leurs habitants, tout <dyn n="2">en menant un travail <lieu type="obj" n="2">sur la forme des espaces du quartier</lieu> autant que <lieu type="obj" n="2">sur les bâtiments, les halls, les façades et les intérieurs</lieu></dyn>.</phrase>
+  <phrase>On a en effet ici, <lieu type="loc">dans ce quartier</lieu>, <dyn accompli="oui" nature="crea"><lieu type="obj">l’urbanisme de barres de l’époque moderne, sans îlot</lieu>, <perc type="axiol" pol="neg">maladroitement</perc> installé</dyn> <lieu type="loc">sur l’urbanisme de rue de l’histoire classique</lieu>.</phrase>
+  <phrase><dyn accompli="oui" nature="crea" n="1">Cette installation</dyn> a été faite <lieu type="loc" n="1">selon deux directions à angle droit</lieu> <obj n="1">afin que <dyn nature="crea" n="2">toute implantation</dyn> soit bien indépendante du tracé historique irrégulier des <dyn accompli="oui" nature="destr" n="3"><lieu type="obj" n="3">rues</lieu> rasées</dyn></obj>.</phrase>
+  <phrase>On a donc <lieu type="obj">deux villes antagonistes</lieu> que <dyn accompli="oui">le projet va « hybrider »</dyn>.</phrase>
+  <phrase>Je sépare clairement les espaces publics (rues, places) et les espaces privés (entrées, jardins).</phrase>
+  <phrase><perc type="axiol" n="1+2+3+4+5">Je choisis</perc> de <dyn accompli="oui" nature="destr" n="1">démolir <lieu type="obj" n="1">une petite barre</lieu></dyn>, de <dyn accompli="oui" nature="crea" n="2">bâtir <lieu type="obj" n="2"><res n="2">deux immeubles-villa</res></lieu></dyn> qui rétablissent la lecture de l’alignement sur rue, de <dyn accompli="oui" nature="crea" n="3">créer <lieu type="obj" n="3"><res n="3">un nouveau cœur d’îlot privatisé</res></lieu></dyn>, de <dyn accompli="oui" nature="repr" proces="iter" n="4"><perc type="axiol" pol="pos" n="4">redonner une dignité d’habitation aux <lieu type="obj" n="4">barres</lieu></perc></dyn> <dyn accompli="oui" nature="modif" n="5">en apportant <lieu type="obj" n="5">des loggias</lieu> et <lieu type="obj" n="5">des halls d’entrée</lieu></dyn>.</phrase>
+  <phrase>Le résultat est cet hybride urbain : il prend en compte l’alignement de la rue Nationale, même si le bâti est discontinu, mais il respecte l’occupation centrale des îlots par les barres de l’époque précédente.</phrase>
+  <phrase>Cette forme hybride m’intéressa beaucoup par la suite.</phrase>
+  <phrase><tps axe_temp="pas" type="dur">À cette époque</tps>, <act type="pers_ind">j</act>’<dyn accompli="oui" nature="crea">ai construit <lieu type="obj"><res>le musée Bourdelle</res></lieu>, <lieu type="obj"><res>la tour de Lille</res></lieu>, <lieu type="obj"><res>les logements de Fukuoka, au Japon</res></lieu></dyn>.</phrase>
+  <phrase>Pendant deux ans, j’irais au Japon tous les deux mois : conférences, réunions de chantier, expositions, débats...</phrase>
+  <phrase>Les situations urbaines sont très antinomiques.</phrase>
+  <phrase>Ce va et vient entre architecture et urbanisme, entre sites à interpréter et <dyn accompli="non" nature="repr" proces="iter"><lieu type="obj">sites</lieu> à réinventer</dyn> me plaît, m’est indispensable.</phrase>
+  <phrase>« À quelles conditions <lieu type="obj">Tokyo</lieu> <dyn accompli="non"><perc type="autre">peut-elle</perc> devenir <res>la ville du XXIe siècle</res></dyn> ?</phrase>
+  <phrase>» demandent les Japonais.</phrase>
+  <phrase>Les Âges de la ville</phrase>
+  <phrase>C’est en 1989, je crois, lors d’une conférence au Japon, que j’ai formulé pour la première fois la périodisation des Âges de la ville, reprise ensuite souvent et notamment à Lyon lors d’un congrès de la Fédération des agences d’urbanisme.</phrase>
+  <phrase>En matière d’urbanisme, on voyait partout <dyn accompli="non" nature="repr" proces="iter">un retour à <lieu type="obj">la ville classique</lieu></dyn>, <perc type="axiol" pol="neg">régressif selon moi</perc>.</phrase>
+  <phrase>Aux États-Unis, c’était le courant du « New Urbanism ».</phrase>
+  <phrase>En Europe, de Berlin à Milan, dans beaucoup de villes en France, les ateliers d’urbanisme se raccrochaient à l’idée de l’îlot fermé constitué d’immeubles mitoyens, faute d’autre concept partageable.</phrase>
+  <phrase>Il y avait parfois <perc type="boul">une volonté</perc> de <dyn accompli="non" nature="repr" proces="iter">recopier le passé</dyn>, parfois de la prudence simplement.</phrase>
+  <phrase>Ils semblaient dire : « Le modèle moderne a échoué, oublions cette parenthèse dans l’histoire, <dyn accompli="non" nature="repr" proces="iter">revenons à <lieu type="obj">la ville de toujours</lieu></dyn> <perc type="axiol">qui a fait ses preuves</perc> ».</phrase>
+  <phrase>Et puis on entendait des architectes anti-urbanistes vanter les vertus d’un laisser-faire sauvage et libre, parfois teinté de libéralisme.</phrase>
+  <phrase>Mais on ne voyait nulle part une volonté de répondre à la réalité présente de la ville, hybride, contradictoire ou éclatée, passant d’une époque à l’autre.</phrase>
+  <phrase><perc type="axiol" pol="neg">On ne s’interrogeait pas</perc> sur <dyn accompli="non">le <tps axe_temp="fut">futur</tps> de <lieu type="obj">la ville</lieu></dyn>.</phrase>
+  <phrase>Le refus de la planification était élevé à la dignité de concept.</phrase>
+  <phrase>Certes, il fallait affirmer que la planification et la Charte d’Athènes n’étaient plus notre référence, mais surtout que le modèle classique ancien, lui non plus, ne pouvait plus être actuel.</phrase>
+  <phrase>Nous avions hérité de cette longue histoire qui s’est toujours identifiée au concept de la rue, et de la ville des « objets bâtis » de la période moderne qui, pendant trente ans, s’était affirmée contre la première.</phrase>
+  <phrase>Deux âges, deux modes de pensée que tout opposait, qui <dyn accompli="oui" n="1">avaient structuré <lieu type="obj" n="1">notre monde</lieu>, <lieu type="obj" n="1">toutes nos villes</lieu></dyn>, mais qui ne pouvaient plus organiser <dyn accompli="non" n="2">nos projets actuels</dyn>.</phrase>
+  <phrase>C’était le passé.</phrase>
+  <phrase>Nous étions dans un autre temps.</phrase>
+  <phrase>Il fallait affirmer la nécessité de reposer maintenant la question.</phrase>
+  <phrase>En parlant d’Âge III, j’ai donc d’abord voulu crier que nous sommes dans un temps nouveau, qu’il n’y a pas un retour à l’Âge I ou II qu’il n’y a pas de régression possible.</phrase>
+  <phrase>Nous sommes donc dans l’obligation de repenser.</phrase>
+  <phrase>Ce temps III est un chantier sur lequel on doit réfléchir.</phrase>
+  <phrase>Il est marqué par <dyn n="1">des opérations aussi différentes qu’<lieu type="obj" n="1">Euralille</lieu></dyn>, <dyn accompli="non" nature="modif" n="2">l’évolution de <lieu type="obj" n="2">la Part-Dieu</lieu> <lieu type="loc" n="2">à Lyon</lieu>, des <lieu type="obj" n="2">villes nouvelles</lieu> <lieu type="loc" n="2">autour de Paris, ou bien encore Montpellier</lieu></dyn> : autrement dit, il faut constater que pour la première fois dans l’histoire, notre époque n’a plus de doctrine unifiée, de prose donnée pour <dyn n="3">faire <lieu type="obj" n="3">la ville</lieu></dyn>.</phrase>
+  <phrase>Or toutes les époques précédentes étaient marquées par une vision commune partagée pour <dyn n="1">faire <lieu type="obj" n="1">la ville</lieu></dyn>, que ce soit à l’Âge I ou à l’Âge II.</phrase>
+  <phrase>Cet Âge III est donc d’abord celui de la confusion et de l’éclatement.</phrase>
+  <phrase>Celui de tous les essais.</phrase>
+  <phrase>Quand je prenais en exemple ce plan du XIIIe arrondissement, je voyais les deux villes de concept irréductiblement opposé qui se juxtaposaient, se croisaient.</phrase>
+  <phrase>Je voyais une ville hybride, car le projet Moderne s’est arrêté avant de <dyn n="1">conquérir <lieu type="obj" n="1">tout l’espace</lieu></dyn>, et il avait transigé avec sa pureté.</phrase>
+  <phrase>L’idée était que pour être moderne il faut qu’on ignore les rues.</phrase>
+  <phrase>Donc, <lieu type="loc">dans ce quartier</lieu>, <tps axe_temp="pas" type="dur">pendant une période précise</tps>, <lieu type="obj">aucun bâtiment</lieu> <dyn accompli="oui" nature="crea">n’a été mis à l’alignement des rues</dyn>.</phrase>
+  <phrase>Mais <lieu type="obj">les rues</lieu> <dyn accompli="non" nature="maint">sont restées</dyn>.</phrase>
+  <phrase>On a <dyn accompli="non" nature="abs"><lieu type="obj">ces espaces</lieu> <perc type="axiol" pol="neg">laissés pour compte</perc></dyn> et ces îlots étranges.</phrase>
+  <phrase>Et cela, précisément, aucun modèle historique ne nous aide à le regarder.</phrase>
+  <phrase>Réinventer à partir de là, c’est entrer physiquement dans une troisième phase de la ville.</phrase>
+  <phrase>On a généralement cru que je prétendais brandir, avec cette notion de l’Âge III, un modèle universel.</phrase>
+  <phrase>Ce n’est pas à cela que je crois.</phrase>
+  <phrase>Je crois que l’urbanisme c’est du temps dans l’espace, qu’il faut comprendre dans quel temps on est.</phrase>
+  <phrase>Et je crois à la vertu relative de l’expérimentation et de la pluralité.</phrase>
+  <phrase>Cet Âge III, c’est l’éparpillement des concepts.</phrase>
+  <phrase>Il est vrai qu’on voit <dyn accompli="non"><lieu type="obj">la ville</lieu> aujourd’hui <perc type="axiol">insaisissable</perc> et <perc type="axiol">implanifiable</perc></dyn>.</phrase>
+  <phrase>On <dyn>fait par morceaux</dyn>.</phrase>
+  <phrase>Même si <lieu type="obj" n="1+2+3+4">l’urbain signifie maintenant </lieu><dyn accompli="non" n="1">l’incertain</dyn>, <dyn n="2">l’instable</dyn>, <dyn n="3">l’éclatement</dyn> et une part accrue d’<dyn accompli="non" n="4">« immaîtrisable »</dyn>, il faut dégager des scénarios spécifiques et des méthodes récurrentes.</phrase>
+  <phrase>C’est pourquoi, je repose la question de l’îlot.</phrase>
+  <phrase>Tous ces projets donnent lieu à une exposition à Tokyo, « Urban situations » en 1991.</phrase>
+  <phrase>L’Institut français d’architecture, auquel je propose de la reprendre, ne s’y intéresse pas.</phrase>
+  <phrase>Pourtant, on y trouve des enseignements utiles.</phrase>
+  <phrase>Et les occasions manquées, en urbanisme, sont souvent plus graves que les crises économiques : ce sont des crises installées pour toujours.</phrase>
+  <phrase>Les Jardins de la Lironde à Montpellier (1991)</phrase>
+  <phrase>À Montpellier, au lieu-dit la Lironde, nous sommes en pleine campagne.</phrase>
+  <phrase>Dès le début, <perc type="boul">j’ai souhaité</perc> <dyn accompli="non" nature="maint">préserver <lieu type="obj">les vignes</lieu>, <lieu type="obj">les oliviers</lieu>, <lieu type="obj">les fermes</lieu></dyn> : si l’on vient habiter là, c’est pour trouver non pas des qualités de centre-ville, mais des qualités propres à la périphérie.</phrase>
+  <phrase>En réponse à <dyn accompli="non" nature="crea" proces="progr">l’augmentation toujours croissante des <lieu type="obj">logements</lieu></dyn> <lieu type="loc">dans les périphéries des villes</lieu>, et en particulier <lieu type="loc">à Montpellier</lieu>, <res>nous devons inventer des solutions nouvelles</res>.</phrase>
+  <phrase>Au lieu d’<dyn accompli="non" nature="crea" n="1">ajouter <perc type="axiol" pol="neg" n="1">encore</perc> aux <lieu type="obj" n="1">routes existantes</lieu></dyn> et de <dyn accompli="non" nature="crea" n="2">couvrir <lieu type="loc" n="2">ici</lieu> <lieu type="obj" n="2">la campagne</lieu></dyn>, <perc type="axiol" n="3">j’ai donc proposé</perc> des <dyn accompli="non" nature="crea" n="3">« <lieu type="obj" n="3"><res n="3">îles</res></lieu> bâties »</dyn> <lieu type="loc" n="3">sur des socles de parkings</lieu>.</phrase>
+  <phrase>Elles entretiennent un rapport franc avec le paysage environnant dont chacun profite ainsi.</phrase>
+  <phrase><dyn accompli="oui" nature="crea" n="1">Leur implantation</dyn> épouse la topographie du <lieu type="obj" n="2+3">territoire de campagne</lieu>, de ses chemins, de ses champs, pour le <dyn accompli="oui" nature="crea" n="2">densifier ponctuellement</dyn> <dyn accompli="non" nature="maint" n="3">en le préservant</dyn>.</phrase>
+  <phrase><perc type="axiol" n="1">Bien sûr</perc>, <dyn accompli="oui" nature="crea" n="1"><lieu type="obj" n="1">l’habitat</lieu> que l’on installe</dyn> va tout changer, mais <act type="pers_coll" n="2">nous</act> <dyn accompli="non" nature="crea" n="2"><perc type="axiol" pol="pos" n="2">aurons tenté</perc> d’urbaniser <lieu type="obj" n="2">cette campagne</lieu></dyn> <perc type="axiol" pol="pos" n="2">en douceur</perc> au lieu de <dyn accompli="non" n="3"><perc type="axiol" pol="neg" n="3">plaquer</perc> <lieu type="loc" n="3">sur elle</lieu> <doc n="3">un plan d’urbanisme</doc></dyn>.</phrase>
+  <phrase>Les îles sont divisées en deux ou trois « parties », avec pour chacune un promoteur différent et plusieurs équipes d’architectes.</phrase>
+  <phrase><act type="pers_coll">Nous</act> <dyn accompli="non" nature="crea" proces="dur">construisons <tps axe_temp="pres" type="dur">actuellement</tps> <lieu type="obj"><res>une partie d’île divisée en deux</res></lieu></dyn>, en coordination <act type="pers_coll">avec des architectes Montpelliérains</act>.</phrase>
+  <phrase>Plus loin, nous sommes coordinateurs d’autres îles, divisées en <dyn accompli="non" nature="crea">plusieurs opérations privées</dyn>.</phrase>
+  <phrase>C’est en fait un « open planning » d’îlots.</phrase>
+  <phrase>Les projets d’urbanisme opérationnels (1993-2003)</phrase>
+  <phrase>En 1993, à Bréda, aux Pays-Bas, Rem Koolhaas réunit un petit groupe pour une étude urbaine sur la zone de Chasse Terrain, qui sera retenue après un an de jury public.</phrase>
+  <phrase>Je proposais des îlots ouverts dans le plan libre que nous avions adopté pour border ce centre-ville ancien.</phrase>
+  <phrase><act type="pers_ind">J</act>’<dyn accompli="oui" nature="abs+crea">ai renoncé à construire <lieu type="obj"><res>ces îlots</res></lieu></dyn> vu les délais que demandaient les promoteurs.</phrase>
+  <phrase>Je fais en 1993, une conférence au Pavillon de l’Arsenal, Bernard Rocher, directeur de l’architecture pour la ville, et conseiller de Paris s’intéresse à mes idées.</phrase>
+  <phrase>Et en 1994 et 1996, je participe à deux consultations pour des secteurs opérationnels dans Paris : le quartier Masséna à Paris-Rive-Gauche, et la Porte d’Asnières.</phrase>
+  <phrase>Au moment où la Ville de Nantes est en train d’abandonner l’idée d’Atlanpole, <perc type="axiol">je propose</perc> de <dyn accompli="non" nature="repr" proces="iter">reprendre <lieu type="loc">dans le secteur Masséna</lieu>, et dans un tout autre contexte de programme et de site, <lieu type="obj">cette grille de rues et d’îlots</lieu></dyn>.</phrase>
+  <phrase>Porte d’Asnières, Paris (1994) « Les Hauts de Malesherbes »</phrase>
+  <phrase>Dans la ZAC de la Porte d’Asnières, je reprends le thème de l’espace central que j’avais mis en jeu à la Roquette et que l’on retrouve aussi dans <dyn accompli="non" n="1">un projet pour <lieu type="obj" n="1">le secteur IV de Marne-la-Vallée</lieu></dyn> (1989) : le vide central, qui peut être une nature pré-existante ou <dyn nature="crea" n="2"><lieu type="obj" n="2">un jardin</lieu> constitué</dyn>, forme la base du plan stratégique suivant lequel va s’organiser l’architecture.</phrase>
+  <phrase><lieu type="loc">À la Porte d’Asnières</lieu>, les bâtiments <dyn>forment <lieu type="obj"><res>deux couronnes bâties</res></lieu></dyn> <lieu type="loc">autour d’un jardin public central</lieu> vu comme une oasis de calme.</phrase>
+  <phrase><dyn nature="crea">L’implantation du <lieu type="obj">bâti</lieu></dyn> est en quinconce, afin que chacun dispose de vues sur le jardin.</phrase>
+  <phrase>Du même coup, la rue est lumineuse alors qu’elle est étroite, et elle a vue sur le jardin entre chaque immeuble.</phrase>
+  <phrase>Le site était si contraint que j’ai dû définir la volumétrie générale en amont pour tenir la surface totale, et <act type="pers_coll">les architectes</act> <dyn accompli="oui" nature="crea">ont inscrit leur projet</dyn> <lieu type="loc">dans ces enveloppes</lieu>.</phrase>
+  <phrase>Île Seguin, Boulogne (1995)</phrase>
+  <phrase>En 1995, à l’invitation de Renault qui organise une consultation pour l’île Seguin, je fais un projet avec <perc type="boul">la volonté</perc> de <dyn accompli="non" nature="maint">préserver à <lieu type="obj">l’île</lieu> son image exceptionnelle d’île-bateau</dyn>.</phrase>
+  <phrase>Dans ce projet, <lieu type="loc">les rives</lieu> <dyn accompli="non">forment <lieu type="obj"><res>un front bâti</res></lieu></dyn>, unifié en une seule paroi dont la silhouette intègre de petites tours et dégage des vues sur la colline de Meudon.</phrase>
+  <phrase>L’île prend son caractère dans le contraste avec ce fond.</phrase>
+  <phrase>Sur l’île, un principe de damier permet d’alterner, avec une grande variété, bâtiments et espaces extérieurs privés ou publics, donnant à lire la profondeur de l’île par des lignes de bâti décalées.</phrase>
+  <phrase>Cette trame offre un outil assez souple pour <dyn accompli="non">une programmation évolutive dans le temps</dyn>, gardant l’image de l’unité de l’île comme référence poétique pour le projet d’ensemble Je réponds en 1999 à des commandes d’études sur des sites à une toute autre échelle, comme au Brésil, à Santo Andre dans la banlieue de Sao Paulo, ou à New York, sur le site de Con Edison, ou encore au Japon, pour la Marinoa City de Fukuoka.</phrase>
+  <phrase><lieu type="loc" n="1">À Deventer en Hollande</lieu>, <lieu type="loc" n="1">le long d’un canal</lieu>, il s’agit de <dyn accompli="non" nature="crea" n="1">créer <lieu type="obj" n="1"><res n="1">un quartier linéaire de logements</res></lieu></dyn>, et à Grenoble, près du <dyn accompli="oui" nature="crea" n="2">nouveau <lieu type="obj" n="2"><res n="2">Palais de Justice</res></lieu></dyn>, je résous la géométrie d’un site en trapèze par deux îlots ouverts de logements sociaux.</phrase>
+  <phrase>Le drame des condominiums</phrase>
+  <phrase>Dans la logique nouvelle des grandes acquisitions foncières et la spécialisation fonctionnelle et commerciale de grands territoires privés, on assiste, dans beaucoup de pays, au phénomène d’<dyn accompli="non" nature="crea"><lieu type="obj">une ville</lieu> qui se construit par poches</dyn>.</phrase>
+  <phrase>Ce n’est plus un grand « zoning » de planification, c’est un découpage marchand, en ce sens qu’il optimise les marchés de l’habitat (sécurité, calme, statut social...) des loisirs, des centres d’affaires.</phrase>
+  <phrase><lieu type="obj">La ville</lieu> <dyn>se divise</dyn> en grands camps.</phrase>
+  <phrase>C’est topologique.</phrase>
+  <phrase>C’est la logique du sac.</phrase>
+  <phrase>Tout ce qui a ainsi une entrée gardée, un plan de voirie arborescent ou en boucle à l’intérieur d’un périmètre clos, se met à l’écart du réseau universel que sont les voies publiques.</phrase>
+  <phrase>On ne peut plus dire : « Tous les chemins mènent à Rome ».</phrase>
+  <phrase>Le nouveau découpage marchand, connecté directement sur la trame des voies rapides, est délié de la trame urbaine et, souvent, des transports en commun.</phrase>
+  <phrase>C’est pourquoi, <perc type="axiol">il est si important</perc> de <dyn accompli="non">repenser la question de <lieu type="obj">la rue</lieu> et de <lieu type="obj">l’îlot</lieu></dyn>, des plans en grille, contre les plans en boucle ou en arbre.</phrase>
+  <phrase>Le problème des condominiums, avant peut-être la question de la fermeture et des gardes, tient dans leur plan masse, leur absence de trames viaires, ou leur réseau intérieur des voies en impasse ou en anneaux.</phrase>
+  <phrase><perc type="axiol">On parle beaucoup</perc> d’<dyn nature="crea">aménagements durables</dyn>.</phrase>
+  <phrase><perc type="axiol" n="1">Pour moi</perc>, <dyn accompli="non" nature="maint" n="1">le durable</dyn> c’est <dyn accompli="non" nature="modif" n="2">le transformable</dyn>, <dyn accompli="non" nature="repr" proces="iter" n="3">le réversible</dyn>.</phrase>
+  <phrase><lieu type="obj">Ces voiries en boucle</lieu> <dyn accompli="non" nature="modif">sont fermées à l’évolution</dyn>.</phrase>
+  <phrase><lieu type="obj" n="1">Ces « bolsas » d’Amérique latine, de Chine ou d’ailleurs</lieu>, <dyn accompli="non" nature="modif" n="1">ne seront pas évolutives</dyn>, impossible à revendre en morceau faute d’indépendance des parties alors que <lieu type="loc" n="2">dans les villes</lieu>, <lieu type="obj" n="2">tous les îlots</lieu> <dyn accompli="non" nature="repr+modif" proces="iter" n="2">sont <tps type="iter">indéfiniment</tps> réappropriés, divisés ou unifiés</dyn>.</phrase>
+  <phrase><lieu type="obj" n="1">Les îlots</lieu> ont des accès publics sur tous leurs côtés, et ils <dyn accompli="non" nature="modif" n="1">sont donc, <tps axe_temp="fut" n="1">dans le temps</tps>, divisibles, vendables, commercialisables</dyn> en <dyn accompli="non" nature="repr" proces="iter" n="2"><lieu type="obj" n="2">morceaux</lieu> reconstructibles</dyn>.</phrase>
+  <phrase>Santo Andre, Sao Paulo, Brésil (1999)</phrase>
+  <phrase>La ville de Santo Andre est située à la périphérie sud de Sao Paulo.</phrase>
+  <phrase>Elle est coupée de friches industrielles d’usines automobiles et de minoteries qui, sur quatre kilomètres, formaient un couloir d’activités le long d’une ville tramée et vivante.</phrase>
+  <phrase>Le danger qui guette, ici, serait d’aboutir à la privatisation d’immenses morceaux de ville : parcs « à thème », pour le commerce ou le loisir, condominiums d’habitat privé ou de bureaux, autant de grandes « poches » closes <dyn>barrant <lieu type="obj">le territoire urbain</lieu></dyn>.</phrase>
+  <phrase>Sans doute pour conjurer cette tendance des propriétaires industriels à vendre « en gros » leur territoire, la municipalité de Santo Andre avait organisé en 1999 une consultation, sur le conseil de Jordi Borja, géographe urbaniste, ancien adjoint au maire de Barcelone.</phrase>
+  <phrase>L’enjeu est de dégager des idées fortes pour cet immense site, et d’entraîner les architectes brésiliens à cette activité un peu surréaliste là-bas : l’urbanisme.</phrase>
+  <phrase>Dans ce projet, je cherche avant tout à <dyn accompli="non" n="1">assurer la continuité du <lieu type="obj" n="1">territoire urbain</lieu></dyn>, à <dyn accompli="non" n="2">éviter <lieu type="obj" n="2">les grandes enclaves</lieu></dyn>.</phrase>
+  <phrase>Là, <perc type="autre">il faut que</perc> <lieu type="obj">l’espace public</lieu> <dyn>passe, continue, traverse</dyn>.</phrase>
+  <phrase>Je pars de <lieu type="obj" n="1">la trame urbaine existante</lieu> pour la <dyn nature="crea" n="1">continuer</dyn> <perc type="axiol" n="2">en essayant de trouver un moyen économique</perc> de <dyn nature="crea" n="2">créer <lieu type="obj" n="2"><res n="2">des rues</res></lieu></dyn>, tout en laissant une grande liberté d’occupation des îlots privés.</phrase>
+  <phrase>Pour prouver que cela n’est pas une sophistication irréaliste sur le plan économique, je montre <lieu type="loc">des îlots dans lesquels</lieu> on <dyn accompli="oui" nature="crea">a installé <lieu type="obj"><res>des bâtiments types existant dans Sao Paulo, des basiques « sans qualité »</res></lieu></dyn>.</phrase>
+  <phrase>Le naturel.</phrase>
+  <phrase>Con Edison, New York (2001)</phrase>
+  <phrase>Rares sont les consultations d’urbanisme organisées par des promoteurs privés.</phrase>
+  <phrase>Dans la ville de New York, les quatre parcelles de Con Edison situées sur la Première Avenue, au bord de l’East River, constituent <dyn accompli="oui" nature="abs"><lieu type="obj">le site</lieu> non développé le plus important</dyn> <lieu type="loc">de l’île de Manhattan</lieu>.</phrase>
+  <phrase>Le projet vise à <dyn accompli="non" nature="crea">créer <lieu type="obj"><res>un grand ensemble exemplaire</res></lieu></dyn>, aux usages multiples, où espaces publics ou privés, ouverts ou fermés, cohabiteraient autour d’une esplanade publique dominant la rivière.</phrase>
+  <phrase>J’explore la possibilité d’îlots ouverts verticaux.</phrase>
+  <phrase>Plutôt qu’un énorme projet fixé, je propose là un plan d’urbanisme vertical, dans une démarche semblable à celle des « parcellaires tridimensionnels » de Masséna, c’est-à-dire que <perc type="axiol" n="1">je montre</perc> que <lieu type="obj" n="1">différentes architectures verticales</lieu> <dyn accompli="non" nature="crea" n="1"><perc type="autre" n="1">pourraient</perc> se construire</dyn> <lieu type="loc" n="1">là</lieu>, <dyn accompli="non" nature="crea" n="2">en poursuivant <lieu type="obj" n="2">la trame des îlots et des rues de Manhattan</lieu></dyn>, mais en l’ouvrant de transparences.</phrase>
+  <phrase>Angers (2002) Angers s’agrandit.</phrase>
+  <phrase>Il s’agit de tirer les leçons de l’histoire de <dyn accompli="oui" nature="crea" n="1">l’urbanisation <perc type="axiol" n="1">lente</perc> des <lieu type="obj" n="1+2">bocages périphériques</lieu></dyn> <dyn accompli="oui" nature="modif" n="2">devenus <res n="2">ville</res></dyn> pour imaginer <dyn accompli="non" nature="crea" n="3">un processus d’urbanisation <perc type="axiol" pol="pos" n="3">plus rapide</perc></dyn>.</phrase>
+  <phrase><dyn accompli="non" nature="crea" n="1">Les nouveaux <lieu type="obj" n="1"><res n="1">quartiers</res></lieu></dyn> <lieu type="loc" n="1">du Plateau des Capucins</lieu> devront s’enchaîner avec les quartiers existants, confirmer l’ensemble.</phrase>
+  <phrase>C’est une proposition de ville-campagne, un damier d’îlots ouverts alternant avec des rectangles de campagne interpénétrables en squares, jeux, équipements, bosquets, etc.</phrase>
+  <phrase>La méthode procède par acquisition progressive, à partir de la trame viaire et parcellaire existante sur la majeure partie du plateau.</phrase>
+  <phrase>Cette trame viaire est l’élément générateur du projet, elle permet d’introduire la dimension du temps : en elle, le temps s’est déjà inscrit, déposé.</phrase>
+  <phrase>Les Batignolles, Paris (2003) Ce grand territoire du nord de Paris, qui appartient à la SNCF et à R FF (Réseau ferré de France) ou à leurs filiales ou ex-filiales, représente une surface totale de 40 à 50 hectares.</phrase>
+  <phrase>Si Paris est retenu pour les Jeux Olympiques de 2012, alors <dyn accompli="non" nature="crea">l’urbanisation</dyn> <perc type="autre">devra se faire</perc> <lieu type="loc">ici</lieu> <perc type="axiol">d’un seul coup</perc>, <perc type="axiol">très vite</perc>, <perc type="axiol">beaucoup plus vite qu’à Paris-Rive-Gauche</perc>.</phrase>
+  <phrase>La configuration du site est complexe, contrainte, encombrée.</phrase>
+  <phrase>C’est un véritable puzzle de <lieu type="loc">terrains, pour partie occupés</lieu>, alors que l’on <dyn accompli="non" nature="crea">prévoit d’y construire <lieu type="obj"><res>500 000 m2</res></lieu> et <lieu type="obj"><res>un parc de 12 hectares</res></lieu></dyn>...</phrase>
+  <phrase>Nous nous associons avec le paysagiste Michel Péna, pour une longue étude de définition.</phrase>
+  <phrase>En cet endroit, Paris a un « trou ».</phrase>
+  <phrase>Il s’interrompt.</phrase>
+  <phrase>Notre projet vise à <dyn accompli="non" n="1">apporter la continuité urbaine</dyn> dont <lieu type="loc" n="1">le XVIIe arrondissement</lieu> a ici <perc type="axiol" pol="pos" n="1">un besoin crucial</perc>, <dyn accompli="non" nature="crea" n="2">en créant <lieu type="obj" n="2"><res n="2">un grand parc « tentaculaire »</res></lieu></dyn> qui va chercher la vie urbaine où elle est.</phrase>
+  <phrase>C’est en fait un parc en damier, qui <dyn n="1">assure bien <lieu type="obj" n="1">les continuités spatiales Est-Ouest et Nord-Sud</lieu></dyn>, et qui <dyn accompli="non" nature="crea" n="2">est « planté » de <lieu type="obj" n="2">plusieurs îles résidentielles</lieu></dyn> qui sont des quartiers d’îlots au cœur ou en bordure du parc.</phrase>
+  <phrase>On retrouve dans cette étude, à travers ces plots en damier, l’idée d’archipel.</phrase>
+  <phrase>Ces petits quartiers <dyn accompli="non" nature="crea">ménagent <lieu type="obj"><res>des jardins</res></lieu> et <lieu type="obj"><res>des rues intérieures</res></lieu></dyn>, mais aussi des « fenêtres » et des « portes » sur le parc grâce à leurs périmètres ouverts.</phrase>
+  <phrase>Pékin (Chine), Beijing logistic port Commande directe d’un groupe de promoteurs locaux pour 1 million de m2.</phrase>
+  <phrase>Croquis à l’appui, ils se sont laissés convaincre de renoncer aux condominiums prévus pour adopter un système d’îlots ouverts maillé par de vraies rues, et des architectures variées plutôt que les traditionnelles barres et tours orientées nord-sud. (2003, en cours)</phrase>
+  <phrase>Beijing logistic port, Pékin, Chine (2003)</phrase>
+  <phrase><lieu type="loc" n="1">À Pékin</lieu>, <tps axe_temp="pres" type="dur" n="1">en ces années</tps> d’<dyn accompli="oui" nature="crea" n="1">une croissance urbaine</dyn> <perc type="axiol" n="1">qu’aucune ville n’a jamais connue à ce rythme effréné et à cette échelle</perc>, on compte par centaines <dyn accompli="non" nature="crea" proces="dur" n="2"><lieu type="obj" n="2">les « poches »</lieu>, <lieu type="obj" n="2">les camps résidentiels fermés</lieu> et <lieu type="obj" n="2">les condominiums</lieu> en chantier</dyn>.</phrase>
+  <phrase>Le processus est toujours le même : pour <dyn nature="crea" n="1">une opération</dyn> <lieu type="loc" n="1">sur un territoire donné</lieu>, on met au point <lieu type="obj" n="2">un type d’immeuble – barre ou tour – très bien conçu à l’intérieur</lieu>, puis on le <dyn nature="crea" proces="iter" n="2">répète</dyn>, toujours tourné vers le soleil, avec une voirie en boucle et un seul accès au site.</phrase>
+  <phrase>J’ai pris conscience de l’ampleur du phénomène en Chine fin 2003, à l’occasion d’un concours où nous sommes retenus pour un très grand quartier de Pékin.</phrase>
+  <phrase>Ce sont d’abord la logique économique et l’efficacité opérationnelle qui engendrent ce modèle de condominium fermé.</phrase>
+  <phrase>Car, ici, le paramètre « sécurité » n’est pas déterminant.</phrase>
+  <phrase>Il semble que l’on ait adopté, pour le « standing » et par facilité, un modèle de gestion, de clôture, de contrôle, venu d’Amérique.</phrase>
+  <phrase>Lorsque je propose un quartier avec des rues, de multiples entrées, une mixité, des commerces, les promoteurs me répondent : « C’est intéressant.</phrase>
+  <phrase>Pourquoi pas ?</phrase>
+  <phrase>Étudions !</phrase>
+  <phrase>» Il s’agit d’un million de mètres carrés !...</phrase>
+  <phrase>Pour que les promoteurs envisagent un autre modèle, je m’emploie à imaginer avec eux <dyn accompli="non" n="1">l’avenir potentiel des <lieu type="obj" n="1"><dyn accompli="oui" nature="crea" n="2"><lieu type="obj" n="2">condominiums</lieu> réalisés</dyn></lieu></dyn> <tps axe_temp="pas" n="2">récemment</tps>.</phrase>
+  <phrase>À l’allure à laquelle évolue la société chinoise, ces casernements de nouveaux riches pékinois ne seront peut-être plus très prisés d’ici peu.</phrase>
+  <phrase>Qu’adviendra-t-il alors de ces territoires quand le niveau économique de leurs habitants changera ?</phrase>
+  <phrase>Leur dimension massive, en un seul bloc, <lieu type="obj">leur</lieu> <dyn nature="modif"><perc type="autre">interdit</perc> d’évoluer <perc type="axiol" pol="pos">en souplesse</perc></dyn>.</phrase>
+  <phrase>Autrement dit, si l’on a souvent dénoncé la rigidité des zonings de <dyn accompli="non" n="1">la planification urbaine européenne</dyn>, on voit aujourd’hui, sous une inspiration libérale et sans plan d’urbanisme, <dyn accompli="non" nature="crea" proces="dur" n="2">se fabriquer <lieu type="obj" n="2"><res n="2">des grands ensembles</res></lieu></dyn> encore bien plus rigides.</phrase>
+  <phrase><perc type="axiol" pol="pos" n="1+2">L’important</perc> est que <lieu type="obj" n="1+2">la ville</lieu> <dyn accompli="non" nature="modif" n="1">soit ouverte aux modifications</dyn>, qu’elle <dyn accompli="non" n="2"><perc type="autre" n="2">puisse</perc> accueillir un futur inconnu</dyn>.</phrase>
+  <phrase>Voilà pourquoi je suis pour <dyn nature="crea">un nouvel <lieu type="obj"><res>îlot</res></lieu></dyn>, pour la rue, pour une ville ouverte au jeu du temps.</phrase>
+  <phrase>Nous préparons actuellement les « permis de construire » des deux premiers îlots alors que <act type="pers_coll">d’autres architectes</act> <dyn accompli="non">interviendront ensuite</dyn>.</phrase>
+  <phrase>L’enjeu est d’abord de <dyn accompli="non" nature="crea"><perc type="axiol" pol="pos">réussir</perc> à créer <lieu type="obj"><res>des rues</res></lieu>, <lieu type="obj"><res>des îlots</res></lieu>, <lieu type="obj"><res>une partition d’espaces privés dans un réseau viaire public</res></lieu></dyn>, en dépit de la loi d’ensoleillement drastique qui conduit partout en Chine à des immeubles éloignés les uns des autres, suivant les préceptes de la Charte d’Athènes.</phrase>
+  <phrase>Ce travail de ruse volumétrique avec la règle du soleil est intéressant.</phrase>
+  <phrase>Je dirais même amusant, car elle nous conduit à <dyn nature="crea" n="1">faire <lieu type="obj" n="1"><res n="1">des îlots ouverts</res></lieu></dyn> pour <dyn nature="crea" n="2"><perc type="axiol" pol="pos" n="2">réussir</perc> à faire <lieu type="obj" n="2"><res n="2">des rues Nord-Sud</res></lieu> vraiment constituées</dyn>.</phrase>
+  <phrase>À partir de ces immeubles déliés, on peut imaginer des architectures variées.</phrase>
+  <phrase>On peut imaginer une part d’aléatoire et, <tps axe_temp="fut" type="dur">dans la durée</tps>, <dyn accompli="non" nature="modif">une évolution <perc type="axiol" pol="pos">facile</perc></dyn>, car chaque immeuble donne sur une rue.</phrase>
+  <phrase>Le quartier est donc maillé de rues publiques dont certaines sont déjà adoptées par les services d’urbanisme de la ville.</phrase>
+  <phrase><dyn accompli="non" nature="crea">Ce tracé de <lieu type="obj">rues</lieu></dyn> introduit une règle pour le long terme.</phrase>
+  <phrase>Par ailleurs, <act type="pers_ind">j</act>’<dyn accompli="non" nature="crea">ai proposé <lieu type="obj">un long parc central</lieu></dyn>, rivière verte qui irrigue le site et deviendra le symbole du quartier.</phrase>
+  <phrase>Nous démultiplions ainsi les situations de bord du parc et les qualités des logements dans la ville.</phrase>
+  <phrase><lieu type="loc">Dans un même îlot</lieu>, <act type="pers_coll">nous</act> <dyn nature="crea">construisons <lieu type="obj"><res>des bâtiments très différents les uns des autres</res></lieu></dyn>.</phrase>
+  <phrase>Ils sont principalement résidentiels, mais nous essayons d’y joindre des fonctions variées : bureaux, commerces, équipements publics parfois.</phrase>
+  <phrase>Nous évitons <dyn accompli="non" nature="crea" proces="iter" n="1">la répétition <perc type="axiol" pol="neg" n="1">obsessionnelle</perc></dyn> qui caractérise souvent les périphéries dès qu’il s’agit de loger en grand nombre.</phrase>
+  <phrase>L’idée de rendre ces rues commerciales dès que possible à été retenue...</phrase>
+  <phrase>À suivre.</phrase>
+  <phrase>Paris XIIIe, quartier Masséna Dans la ZAC Paris-Rive-Gauche, l’un des projets-phares de l’urbanisme parisien.</phrase>
+  <phrase>Page de gauche: perspectives sur les rues, étroites mais néanmoins lumineuses; état d’avancement du quartier en 2004.</phrase>
+  <phrase>Ci-contre, deux exemples de la liberté que laisse la règle du jeu de l’îlot ouvert aux architectes; immeubles conçus par Frédéric Borel (à gauche) et Beckmann N’Thepé (à droite). (1994, en cours)</phrase>
+  <phrase>Paris-Rive-Gauche, secteur Masséna (1994)</phrase>
+  <phrase>Comme <dyn n="1">toute opération d’urbanisme</dyn>, <dyn accompli="non" n="2">le projet <lieu type="obj" n="2">Masséna</lieu></dyn> se déroule <tps type="dur" n="2">dans la durée</tps>.</phrase>
+  <phrase>L’imprévu peut surgir, les acteurs concernés sont nombreux, leurs intérêts contradictoires.</phrase>
+  <phrase>Un tel projet doit embrasser beaucoup de possibles, mais il faut que les intentions initiales tiennent jusqu’à la fin.</phrase>
+  <phrase><lieu type="obj">Masséna</lieu> est donc <dyn>une « expérimentation » <perc type="axiol">sérieuse</perc></dyn>, qui tente de trouver une réponse au programme, au contexte, à notre époque, à partir de notre héritage historique contradictoires : la rue d’une part, l’immeuble autonome « moderne » de l’autre.</phrase>
+  <phrase><lieu type="loc">À Masséna</lieu>, il s’agit d’<dyn nature="repr" proces="iter"><lieu type="obj">une rue</lieu> repensée</dyn>.</phrase>
+  <phrase>La rue a toujours permis de régler le rapport des individus et des bâtiments spécifiques à la collectivité dans une forme une et continue.</phrase>
+  <phrase>Ici, la relecture de la rue est fondée sur l’idée d’<dyn accompli="non" nature="crea">accueillir <lieu type="obj">des bâtiments autonomes</lieu></dyn>, et de l’ouvrir sur l’intérieur des îlots.</phrase>
+  <phrase>Finie, la continuité fermée de sa paroi qui fût son caractère le plus marquant.</phrase>
+  <phrase>Cette manière de <dyn nature="crea">constituer <lieu type="obj"><res>la rue</res></lieu></dyn> à partir d’une grande variété de bâtiments pour les faire vivre ensemble, à laquelle je travaillais depuis Les Hautes Formes et Atlanpole, a rencontré ici la volonté de mixité formulée par le maître d’ouvrage, la SEMAPA.</phrase>
+  <phrase>L’idée de la SEMAPA était de sortir de la logique fonctionnaliste ou commerciale qui spécialise les lieux résidentiels, les zones de bureaux ou d’activités.</phrase>
+  <phrase><dyn accompli="non" n="1">Imaginer <lieu type="obj" n="1">un quartier diversifié</lieu></dyn> fut l’un des points de départ de ma réflexion pour la règle du jeu que j’ai imaginée.</phrase>
+  <phrase>La décision d’<dyn accompli="non" nature="crea">installer <lieu type="loc">à Masséna</lieu> <lieu type="obj"><res>l’Université Paris VII</res></lieu></dyn> renforcera cette logique.</phrase>
+  <phrase>Avec ces îlots ouverts, <lieu type="obj" n="1">les immeubles</lieu> <dyn n="1">ne sont pas accolés</dyn> en une seule masse, comme les îlots traditionnels qui <dyn nature="crea" n="2">alignent <lieu type="obj" n="2">des façades continues</lieu></dyn> et <dyn nature="crea" n="3">génèrent <lieu type="obj" n="3"><res n="3">des cours intérieures fermées</res></lieu></dyn>.</phrase>
+  <phrase><cause n="1+2">La ville à îlots fermés</cause> conduit aussi à <dyn accompli="non" proces="iter" n="1">systématiser <lieu type="obj" n="1">des largeurs de rues au-dessus de 20 mètres</lieu></dyn>, <obj n="1">pour assurer les prospects</obj>, et à <dyn accompli="non" nature="crea" n="2">bâtir <lieu type="obj" n="2"><res n="2">des immeubles mitoyens</res></lieu></dyn>, dont les architectes ne s’exercent qu’au jeu des façades sur rue.</phrase>
+  <phrase>Avec les îlots ouverts, qui sont ici assez petits, <act type="pers_ind" n="1">je</act> <dyn accompli="non" nature="crea" n="1">propose <lieu type="obj" n="1">des rues plus étroites</lieu></dyn>, mais lumineuses grâce à l’ouverture de vues entre les bâtiments sur l’intérieur des îlots et leurs plantations.</phrase>
+  <phrase>L’objectif de densité est élevé, afin que la SEMAPA puisse équilibrer son bilan.</phrase>
+  <phrase>La démarche volumétrique permet cette densité, en donnant à chaque appartement ou bureau beaucoup de lumière et de vues : souvent, il y a trois orientations pour un logement.</phrase>
+  <phrase><dyn nature="crea" n="1"><lieu type="obj" n="1">Les immeubles</lieu>, conçus et réalisés</dyn> par <act type="pers_coll" n="1">divers architectes et maîtres d’ouvrage</act>, <dyn n="2"><perc type="autre" n="2">peuvent</perc> adopter des volumes et des expressions architecturales assez variés</dyn>, car l’alignement sur rue, dont la perception est renforcée par les proportions verticales, suffit à intégrer cette diversité.</phrase>
+  <phrase>Et dans la variété, voire le contraste de matières, de hauteurs entre immeubles, nous visons une esthétique urbaine vivante, neuve, aérée et intime aussi, n’imposant aucune une homogénéisation.</phrase>
+  <phrase>La rue est le lien qui assemble toute la diversité des éléments.</phrase>
+  <phrase>Îlot Zeil, Francfort (Allemagne) Au centre de Francfort, une rue droite et lumineuse traverse ce grand îlot compact, permettant d’intégrer à la vie urbaine les deux centres commerciaux, l’hôtel, et les tours de bureaux demandés par le programme. (2002, concours, non retenu)</phrase>
+  <phrase>Le parcellaire « tridimensionnel »</phrase>
+  <phrase>Dans le projet initial, <dyn accompli="non" nature="crea" proces="progr" n="1">l’opération <perc type="autre" n="1">devait</perc> être réalisée îlot par îlot</dyn>, <lieu type="loc" n="2">chaque îlot</lieu> accueillant <dyn accompli="non" nature="crea" n="2">une seule opération de <lieu type="obj" n="2">150 à 250 logements</lieu></dyn>.</phrase>
+  <phrase>Pour assurer des vues dégagées pour tous, <lieu type="obj">les îlots</lieu> <dyn accompli="non">s’ajustaient les uns aux autres</dyn> <tps axe_temp="pas" type="dur">au fil des réalisations</tps>, notamment selon une règle qui évite « l’effet corridor » dans les rues, en jouant de quinconce.</phrase>
+  <phrase>Très vite, la SEMAPA m’a demandé de réétudier le plan sur la base d’<dyn nature="crea">opérations de <lieu type="obj">40 à 50 logements</lieu></dyn>.</phrase>
+  <phrase>Je n’ai pas changé le plan des rues.</phrase>
+  <phrase>Mais alors que, seule, la règle de l’îlot ouvert suffisait aux <act type="pers_coll" n="1">futurs architectes</act> pour faire <dyn accompli="non" nature="crea" n="1">leur projet d’<lieu type="obj" n="1">îlot entier</lieu></dyn>, <act type="pers_ind" n="2">j</act>’<dyn accompli="oui" n="2"><perc type="autre" n="2">ai dû</perc> pré-organiser <lieu type="obj" n="2">les îlots</lieu></dyn> <obj n="2">pour <perc type="autre" n="3">permettre</perc> à <dyn accompli="non" nature="crea" n="3">plusieurs opérations</dyn> d’y entrer sans conflits</obj>.</phrase>
+  <phrase>Nous avons fait un « parcellaire tridimensionnel », c’est-à-dire un <dyn accompli="non" nature="crea" n="1"><lieu type="obj" n="1">cadre volumétrique</lieu> constructible</dyn> plus grand que le volume nécessaire à chaque programme.</phrase>
+  <phrase>Cette pré-définition volumétrique donna lieu au document appelé fiche de lot.</phrase>
+  <phrase>Il autorise une liberté pour jouer avec les volumes, les formes, et les orienter dans la direction choisie.</phrase>
+  <phrase>L’architecte Philippe Pargade, par exemple, l’a utilisée pour répondre avec deux bâtiments – l’un en verre, l’autre en zinc – entre lesquels passe le jour du Sud.</phrase>
+  <phrase>Dans <dyn accompli="oui" nature="crea">les nouveaux <lieu type="obj"><res>îlots</res></lieu></dyn>, le long des bâtiments universitaires, on voit cette liberté volumétrique à l’œuvre.</phrase>
+  <phrase>Pour les bureaux, la transparence centrale devient atrium ou hall traversant.</phrase>
+  <phrase>Et que se passe-t-il si on achète <lieu type="obj">un bâtiment</lieu> pour le <dyn accompli="non" nature="destr">démolir</dyn>, demande-t-on ?</phrase>
+  <phrase>Réponse : on a des droits à reconstruire, comme partout, mais moins figés, et avec des jours dans plusieurs directions.</phrase>
+  <phrase>Concertation</phrase>
+  <phrase><dyn accompli="non" n="1">Tous ces projets urbains</dyn> progressent dans une démarche interactive entre habitants et élus, services d’urbanisme de la ville, investisseurs ou promoteurs, <act type="pers_coll" n="2">services municipaux et nationaux</act> qui <dyn nature="crea" n="2">construisent <lieu type="obj" n="2"><res n="2">les écoles</res></lieu> ou <lieu type="obj" n="2"><res n="2">les universités</res></lieu></dyn>.</phrase>
+  <phrase>La méthode des îlots ouverts s’est montrée très souple pour ces divers programmes.</phrase>
+  <phrase>Le plan a changé constamment en dix ans, avec les mouvements des programmes.</phrase>
+  <phrase>Ensuite, une fois que des architectes sont retenus, le travail avance dans la concertation.</phrase>
+  <phrase>Parfois les architectes sont amenés par les promoteurs mais souvent ils sont choisis lors de consultations publiques ou privées auxquelles je participe comme membre du jury.</phrase>
+  <phrase>Travail avec les architectes Puis le travail pratique est poursuivi au sein d’« ateliers » travail assez fructueux de confrontation, de coordination, d’ajustement, avec les différents architectes.</phrase>
+  <phrase><perc type="axiol" pol="pos" n="1">Il est beaucoup plus intéressant et motivant</perc> pour <act type="pers_ind" n="1">un architecte</act> de <dyn accompli="non" nature="crea" n="1">concevoir <lieu type="obj" n="1">des volumes entiers</lieu></dyn> plutôt que de travailler seulement une façade entre deux mitoyens.</phrase>
+  <phrase>Je veux donner une vraie liberté aux architectes.</phrase>
+  <phrase>Certains urbanistes me l’ont reproché !</phrase>
+  <phrase>Mais le risque est encadré par le système de l’îlot ouvert, l’ « esthétique » collective de la rue.</phrase>
+  <phrase>Ce jeu incite à être plus créatif.</phrase>
+  <phrase>Bien plus qu’un urbanisme de restrictions et d’interdits, il donne des capacités d’ouverture.</phrase>
+  <phrase>Sur un même terrain, les résultats des consultations sont très différents.</phrase>
+  <phrase>Ainsi, l’un des objectifs importants de l’îlot ouvert est de donner plus de plaisir aux architectes, parce que l’architecture sera plus savoureuse.</phrase>
+  <phrase>Ceux-ci, il est vrai sont inégalement talentueux, et la disparité des architectures angoisse tout urbaniste.</phrase>
+  <phrase>Je prends, au contraire, le risque de la considérer comme une vertu.</phrase>
+  <phrase>À mon sens, réside justement là <perc type="axiol" pol="neg">l’un des problèmes</perc> de <dyn accompli="non"><lieu type="obj">la ville</lieu> de <tps axe_temp="fut">demain</tps></dyn> : de la disparité, faire un tout ; marier des singularités qui sont parfois contradictoires, ou du moins très différentes.</phrase>
+  <phrase>Dès que les projets sont connus, nous organisons des réunions par îlot ou par groupe d’îlots: quatre projets autour d’un carrefour par exemple.</phrase>
+  <phrase>Nous regardons les maquettes et les projets, nous examinons les volumes, les matériaux, évaluons les rapports de coloration et de matière.</phrase>
+  <phrase>Le hasard fait parfois bien les choses, je l’accueille, mais pas toujours.</phrase>
+  <phrase>Les architectes modifient un peu leurs choix initiaux, s’il le faut, car ils sont intéressés par ce travail de mise en relation.</phrase>
+  <phrase>Ces ateliers se tiennent régulièrement, souvent en présence des promoteurs et des aménageurs.</phrase>
+  <phrase>Il est arrivé parfois que les choses soient beaucoup plus difficiles avec certains promoteurs, jaloux de leur indépendance et n’aimant pas l’idée même de ces ateliers de concertation.</phrase>
+  <phrase>À la porte d’Asnières, où le projet est beaucoup plus fixé, les architectes ont eu beaucoup moins de liberté volumétrique.</phrase>
+  <phrase>Avec le recul, je pense qu’il aurait fallu être plus directif sur un certain nombre de données concernant les rez-de-chaussée.</phrase>
+  <phrase>Il y a au contraire, à Paris-Rive-Gauche, une grande liberté donnée aux architectes, et les projets s’enchaînent bien.</phrase>
+  <phrase>Par principe, dans ce rôle, je n’interviens pas sur le « style » architectural, mais sur des matériaux, des couleurs, les rapports des grilles, des murets, des entrées de parking.</phrase>
+  <phrase>Quand <act type="pers_coll" n="1+2">les architectes</act> <dyn accompli="oui" n="1"><perc type="autre" n="1">ont eu</perc> à traiter <lieu type="obj" n="1">deux angles et trois rues</lieu></dyn>, sous la forme d’une combinaison de plusieurs bâtiments, ils avaient beaucoup de marge et, visiblement, <perc type="axiol" pol="pos" n="2">cela les amusait</perc>, de <dyn nature="crea" n="2">donner forme à <lieu type="obj" n="2"><res n="2">des logements qui ont des vues un peu dans tous les sens</res></lieu></dyn>.</phrase>
+  <phrase>Ils le disent tous.</phrase>
+  <phrase>L’intéressant est que ces architectures variées n’ont pas été choisies au sein d’un petit groupe qui suivrait mon écriture, mon style et mon goût.</phrase>
+  <phrase><perc type="axiol" n="1">C’est l’enjeu majeur de l’urbanisme de demain</perc>: dans l’immense diversité, <dyn n="1">intégrer <perc type="axiol" n="1">le médiocre</perc>, <perc type="axiol" n="1">l’ordinaire</perc>, voire <perc type="axiol" n="1">le laid</perc></dyn>.</phrase>
+  <phrase>Et <lieu type="obj" n="1">des bâtiments que l’on trouverait ailleurs « pas extraordinaires », voire que l’on n’apprécierait guère</lieu>, <dyn n="1">entrent ici dans le concert de la ville</dyn>.</phrase>
+  <phrase>Ils passent bien.</phrase>
+  <phrase>Les volumes réagissant les uns par rapport aux autres, c’est le tout qui compte, mais il faut quelques beaux bâtiments.</phrase>
+  <phrase>J’appelle cela « l’effet nature morte »: une tabatière, une bouteille, une coupe, un journal, des choses posées sur une table...</phrase>
+  <phrase>chaque objet est en soi banal, mais seul compte le rapport entre eux, l’espace, la lumière, les contrastes ou les associations de couleurs.</phrase>
+  <phrase>Lors de ces concertations, j’ai pris conscience qu’il y a aussi un travail de cet ordre, presque pictural, à faire avec la ville.</phrase>
+  <phrase>Rio-de-Janeiro (Brésil), Cité de la Musique Entre mer et montagne, la Cidade de Musica (salle philharmonique, école de musique, salles de répétition, médiathèque, salles de cinéma...) flotte au-dessus d’un jardin tropical: un signal fort, fait pour être vu de loin, pour rassembler la ville. (2002-2007)</phrase>
+  <phrase>Architecture ou urbanisme?</phrase>
+  <phrase>Ce survol de mon travail souligne bien sûr tout ce qui a trait à la ville.</phrase>
+  <phrase>À vrai dire, il devrait s’accompagner des séries de <dyn accompli="oui" nature="crea">projets bâtis</dyn> en parallèle, dont il est rare qu’ils n’aient pas eux-mêmes influencé ce regard urbain, ou n’aient été influencés par cette façon de voir la ville.</phrase>
+  <phrase>Je ne suis pas dans un autre sujet lorsque <act type="pers_ind">je</act> <dyn nature="crea">conçois <lieu type="obj">des îlots ouverts</lieu></dyn> <lieu type="loc">à Montréal</lieu> ou <lieu type="loc">à Boulogne</lieu>, ni lorsque je travaille l’intérieur d’un îlot fermé, comme à l’ambassade de Berlin.</phrase>
+  <phrase>Même si <dyn>certains projets se déploient</dyn> <lieu type="loc">sur de plus grands territoires</lieu>, le champs dans lequel je travaille est à l’échelle du quartier, de tout ce qui se tisse entre voiries, rues, routes, groupes de bâtiments et espaces publics.</phrase>
+  <phrase>Qu’il s’agisse des « Champs libres » à Rennes ou de la Cité Judiciaire de Grasse, le projet part toujours d’une lecture de <lieu type="obj">la ville et du territoire</lieu>, et contribue à les interpréter et les <dyn nature="modif">transformer</dyn>.</phrase>
+  <phrase>Je ne fais pas de distinction nette entre ce qui serait architecture et ce qui est urbanisme.</phrase>
+  <phrase>Il est crucial aujourd’hui que ces deux disciplines se parlent.</phrase>
+  <phrase>Il y a continuité dans la conception.</phrase>
+  <phrase>Ce n’est pas l’échelle qui distingue l’urbanisme de l’architecture, mais le dialogue avec l’autre, le partage, à plusieurs, d’une règle du jeu.</phrase>
+  <phrase>Lorsqu’on <dyn nature="crea">construit <lieu type="obj"><res>un bâtiment</res></lieu></dyn>, on maîtrise à quatre-vingt dix pour cent ce que l’on veut faire.</phrase>
+  <phrase>Dans l’urbanisme, on ne le maîtrise qu’à cinquante pour cent peut être...</phrase>
+  <phrase>: il y a de « l’autre », de l’inconnu, de l’aléatoire...</phrase>
+  <phrase>Je vois l’urbanisme comme le résultat d’une lutte entre deux énergies, deux courants : d’un côté, l’expression désordonnée, anarchique, vivante des besoins et des désirs, des pressions individuelles ; de l’autre, la nécessité de règles pour vivre ensemble, l’action publique ordonnatrice qui défend l’intérêt collectif en garantissant, mais aussi en limitant, les droits individuels.</phrase>
+  <phrase>Il s’agit d’organiser le désordre naturel sans le tuer.</phrase>
+  <phrase>Un aspect merveilleux des villes réside dans ce fait qu’elles rassemblent une totalité d’hommes dans leur incroyable diversité, leur singularité, au sein d’une forme, d’une atmosphère.</phrase>
+  <phrase>L’urbanisme est une action politique qui exige beaucoup d’intelligence partagée.</phrase>
+  <phrase>Réussi, il témoigne d’un sommet de civilisation.</phrase>
+  <phrase>Et c’est devenu plus difficile, car notre époque est celle du court terme.</phrase>
+  <phrase>Politiquement, économiquement, dans l’imaginaire, le futur est limité au temps du retour sur investissement.</phrase>
+  <phrase>Réussir l’urbanisme d’un morceau de ville paraît l’enjeu le moins maîtrisable, l’ambition la moins naturelle qui soit.</phrase>
+  <phrase>Et la plus essentielle pourtant.</phrase>
+  <phrase><perc type="axiol" pol="pos">Réussir</perc> <dyn accompli="non">un projet urbain</dyn> compte bien plus que réussir une architecture, mais il faut ajouter aussitôt que cela ne peut se faire sans une certaine vivacité d’architecture.</phrase>
+  <phrase>Un minimum.</phrase>
+  <phrase>Il faut que des bâtiments « ordinaires » trouvent bien leur place.</phrase>
+  <phrase>Cela, au moins, n’est pas hors d’atteinte. Christian de Portzamparc, Paris, juin 2004</phrase>
+</root>
