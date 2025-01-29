@@ -23,7 +23,7 @@ import glob
 import os
 
 # Dimensions à traiter
-DIMENSIONS = ["dyn", "act", "perc", "tps", "doc"]
+DIMENSIONS = ["dyn", "act", "perc", "tps", "doc", "lieu_loc", "lieu_obj"]
 ANNOTATIONS_AUTO = "annotations/annotations_auto"
 ANNOTATIONS_MANUELLES = "annotations/annotations_manuelles"
 RESULTS_DIR = "resultats"
@@ -219,7 +219,10 @@ def compute_evaluation(filename):
         print(f"📌 Traitement du fichier {filename} - Dimension: {dim}")
 
         # Charger les annotations manuelles
-        manual_path = f"{ANNOTATIONS_MANUELLES}/all_{dim}.tsv"
+        if dim.startswith("lieu_"):
+            manual_path = f"{ANNOTATIONS_MANUELLES}/all_lieu.tsv"
+        else:
+            manual_path = f"{ANNOTATIONS_MANUELLES}/all_{dim}.tsv"
 
         if not os.path.exists(manual_path):
             print(
@@ -235,7 +238,12 @@ def compute_evaluation(filename):
         annotation_auto = pd.read_csv(filename)
 
         # Sélectionner les colonnes pertinentes
-        segments_reels = ground_truth_df[["Segment_Annoté"]]
+        if dim.startswith("lieu_"):
+            segments_reels = ground_truth_df[
+                ground_truth_df["Type"] == dim.split("_")[-1]
+            ][["Segment_Annoté"]]
+        else:
+            segments_reels = ground_truth_df[["Segment_Annoté"]]
         segments_bert = annotation_auto[[f"balise_{dim}", "phrase", "phrase_id"]]
 
         # Calcul des métriques
