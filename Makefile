@@ -33,11 +33,11 @@ run: $(VENV)
 
 format: $(VENV)
 	@echo "$(CYAN)🎨 Formatting code with Black...$(RESET)"
-	$(BLACK) .
+	@$(BLACK) .
 
 lint: $(VENV)
 	@echo "$(CYAN)Running Ruff lint...$(RESET)"
-	$(RUFF) check . --fix
+	@$(RUFF) check . --fix
 
 # test: $(VENV)
 #   @echo "$(CYAN)Running tests with pytest...$(RESET)"

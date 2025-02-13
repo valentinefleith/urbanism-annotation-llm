@@ -1,22 +1,13 @@
 import os
 import ollama
 import pandas as pd
-from collections import namedtuple
 import glob
-from sklearn.metrics import (
-    accuracy_score,
-    precision_recall_fscore_support,
-    confusion_matrix,
-)
-from rich.console import Console
-from rich.table import Table
+from evaluation import Metrics, evaluate_annotation, pretty_print
 
 MODEL = "mistral"
 CSV_PATH = "corpus/corpus_phrases"
 ANNOTATIONS_PATH = f"annotations/annotations_llm/{MODEL}"
 RESULTS_PATH = f"results/classification/{MODEL}"
-
-Metrics = namedtuple("Metrics", ["accuracy", "precision", "recall", "f1"])
 
 
 def annotate_with_ollama(sentences: pd.DataFrame) -> list:
@@ -39,46 +30,6 @@ def get_annotated_df(csv_file: str, save=True) -> pd.DataFrame:
         os.makedirs(ANNOTATIONS_PATH, exist_ok=True)
         df.to_csv(f"{ANNOTATIONS_PATH}/{csv_file.split('/')[-1]}", sep="|", index=False)
     return df
-
-
-def evaluate_annotation(annotated_df: pd.DataFrame):
-    y_true = annotated_df["dynamic"].tolist()
-    y_pred = annotated_df["annotation"].tolist()
-    accuracy = accuracy_score(y_true, y_pred)
-    precision, recall, f1, _ = precision_recall_fscore_support(
-        y_true, y_pred, average="binary"
-    )
-    metrics = Metrics(accuracy, precision, recall, f1)
-    conf_matrix = confusion_matrix(y_true, y_pred)
-    return metrics, conf_matrix
-
-
-def pretty_print(metrics: Metrics, conf_matrix, filename) -> None:
-    console = Console()
-    # METRICS
-    console.print(f"\n[bold cyan]Results for {filename}[/bold cyan]\n")
-    table = Table(show_header=True, header_style="bold magenta")
-    table.add_column("Metric", style="bold white")
-    table.add_column("Value", style="bold yellow")
-
-    table.add_row("Accuracy", f"{metrics.accuracy:.4f}")
-    table.add_row("Precision", f"{metrics.precision:.4f}")
-    table.add_row("Recall", f"{metrics.recall:.4f}")
-    table.add_row("F1-score", f"{metrics.f1:.4f}")
-
-    console.print(table)
-
-    # CONFUSION MATRIX
-    console.print("\n[bold cyan]Confusion Matrix[/bold cyan]")
-    conf_table = Table(header_style="bold red")
-    conf_table.add_column("")
-    conf_table.add_column("Predicted False", justify="center", style="bold green")
-    conf_table.add_column("Predicted Dynamic", justify="center", style="bold green")
-
-    conf_table.add_row("Actual False", str(conf_matrix[0][0]), str(conf_matrix[0][1]))
-    conf_table.add_row("Actual Dynamic", str(conf_matrix[1][0]), str(conf_matrix[1][1]))
-
-    console.print(conf_table)
 
 
 def save_results(metrics: Metrics, conf_matrix, filename):
