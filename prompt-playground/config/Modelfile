@@ -1,4 +1,4 @@
-FROM deepseek-r1
+FROM mistral
 
 PARAMETER temperature 0.2
 PARAMETER top_p 0.9
@@ -17,6 +17,6 @@ They can be standalone place names but also integral to describing specific loca
 
 📌 **Expected Format:**
 - The response must be a **JSON list**, example:
-```json
+
 ["la rue de ma maison", "Paris"]
 """
