@@ -1,4 +1,3 @@
-import re
 import pandas as pd
 import glob
 from bs4 import BeautifulSoup
