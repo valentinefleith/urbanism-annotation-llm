@@ -43,6 +43,10 @@ If you want to use another than Mistral, you can update it in the `Modelfile` by
 ```
 FROM <your-new-model>
 ```
+Don't forget to also update it on top of `main.py` :
+```py
+MODEL = "mistral"
+```
 
 ### 4. Run the project
 Once the installation is complete, run:
@@ -51,13 +55,13 @@ Once the installation is complete, run:
 make run
 ```
 This executes `main.py` which:
-- Loads the urbanism-focused LLM(`urbaniste`)
+- Loads the urbanism-focused LLM (`urbaniste`)
 - Processes text and **classifies urban dynamics**
-- Saves results in a dataframe
+- Saves LLM annotation in `annotations/annotations_llm/{model-name}`
+- Evaluates the model and saves results in `results/classification/{model-name}`
 
 ---
 ### TODO:
-- Evaluate the LLM annotation
 - Configure model dynamically
 - Improve annotation accuracy by refining prompts
 - Support multiple annotation types beyond urban dynamics

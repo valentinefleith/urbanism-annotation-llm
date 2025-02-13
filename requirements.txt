@@ -2,3 +2,5 @@ ollama
 black
 ruff
 pandas
+scikit-learn
+rich
