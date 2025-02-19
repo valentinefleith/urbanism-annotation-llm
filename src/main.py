@@ -3,6 +3,8 @@ import ollama
 import pandas as pd
 import glob
 from evaluation import Metrics, evaluate_annotation, pretty_print
+from tqdm import tqdm
+from sklearn.utils import resample
 
 MODEL = "mistral"
 CSV_PATH = "corpus/corpus_phrases"
@@ -12,7 +14,7 @@ RESULTS_PATH = f"results/classification/{MODEL}"
 
 def annotate_with_ollama(sentences: pd.DataFrame) -> list:
     results = []
-    for sentence in sentences:
+    for sentence in tqdm(sentences):
         response = ollama.chat(
             model="urbaniste", messages=[{"role": "user", "content": sentence}]
         )
@@ -21,15 +23,38 @@ def annotate_with_ollama(sentences: pd.DataFrame) -> list:
     return results
 
 
+def get_downsampled(df) -> pd.DataFrame:
+    class_counts = df["dynamic"].value_counts()
+    biggest_class = class_counts.idxmax()
+    # we separate the majority class from the rest of the samples
+    biggest_class_df = df.query(f"`dynamic` == {biggest_class}")
+    df_without_biggest = df.query(f"`dynamic` != {biggest_class}")
+    resampled_class = resample(
+        biggest_class_df,
+        replace=False,
+        n_samples=int(class_counts.median()),  # reduce n_sample to median
+        random_state=42,
+    )
+    # and then concatenate them after reducing the size
+    return (
+        pd.concat([df_without_biggest, resampled_class])
+        .sample(frac=1)
+        .reset_index(drop=True)
+    )
+
+
 def get_annotated_df(csv_file: str, save=True) -> pd.DataFrame:
     df = pd.read_csv(csv_file, sep="|")
-    sentences = df["sentence"].tolist()
+    downsampled_df = get_downsampled(df)
+    sentences = downsampled_df["sentence"].tolist()
     annotations = annotate_with_ollama(sentences)
-    df["annotation"] = annotations
+    downsampled_df["annotation"] = annotations
     if save:
         os.makedirs(ANNOTATIONS_PATH, exist_ok=True)
-        df.to_csv(f"{ANNOTATIONS_PATH}/{csv_file.split('/')[-1]}", sep="|", index=False)
-    return df
+        downsampled_df.to_csv(
+            f"{ANNOTATIONS_PATH}/{csv_file.split('/')[-1]}", sep="|", index=False
+        )
+    return downsampled_df
 
 
 def save_results(metrics: Metrics, conf_matrix, filename):
