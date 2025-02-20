@@ -19,7 +19,11 @@ def annotate_with_ollama(sentences: pd.DataFrame) -> list:
             model="urbaniste", messages=[{"role": "user", "content": sentence}]
         )
         annotation = response["message"]["content"]
-        results.append(int(annotation))
+        try:
+            results.append(int(annotation[0]))
+        except ValueError:
+            results.append(0)
+            continue
     return results
 
 
@@ -77,6 +81,9 @@ def main():
     all_csv_files = glob.glob(CSV_PATH + "/*.csv")
     for csv_file in all_csv_files:
         filename = csv_file.split("/")[-1]
+        print(f"Currently loading {filename}...")
+        if os.path.isfile(f"{RESULTS_PATH}/{filename}"):
+            continue
         annotated_df = get_annotated_df(csv_file)
         evaluation, conf_matrix = evaluate_annotation(annotated_df)
         pretty_print(evaluation, conf_matrix, filename)
