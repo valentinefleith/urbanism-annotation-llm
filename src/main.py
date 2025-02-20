@@ -18,9 +18,9 @@ def annotate_with_ollama(sentences: pd.DataFrame) -> list:
         response = ollama.chat(
             model="urbaniste", messages=[{"role": "user", "content": sentence}]
         )
-        annotation = response["message"]["content"]
+        annotation = response["message"]["content"].strip()
         if MODEL.startswith("deepseek"):
-            annotation = ''.join(filter(str.isdigit, annotation))[:1]
+            annotation = "".join(filter(str.isdigit, annotation))[:1]
         try:
             results.append(int(annotation[0]))
         except ValueError:
