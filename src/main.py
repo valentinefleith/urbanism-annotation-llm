@@ -6,7 +6,7 @@ from evaluation import Metrics, evaluate_annotation, pretty_print
 from tqdm import tqdm
 from sklearn.utils import resample
 
-MODEL = "mistral"
+MODEL = "llama3.1"
 CSV_PATH = "corpus/corpus_phrases"
 ANNOTATIONS_PATH = f"annotations/annotations_llm/{MODEL}"
 RESULTS_PATH = f"results/classification/{MODEL}"
