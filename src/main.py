@@ -6,7 +6,7 @@ from evaluation import Metrics, evaluate_annotation, pretty_print
 from tqdm import tqdm
 from sklearn.utils import resample
 
-MODEL = "llama3.1"
+MODEL = "deepseek-r1:1.5b"
 CSV_PATH = "corpus/corpus_phrases"
 ANNOTATIONS_PATH = f"annotations/annotations_llm/{MODEL}"
 RESULTS_PATH = f"results/classification/{MODEL}"
@@ -14,19 +14,28 @@ RESULTS_PATH = f"results/classification/{MODEL}"
 
 def annotate_with_ollama(sentences: pd.DataFrame) -> list:
     results = []
-    for sentence in tqdm(sentences):
+    for sentence in tqdm(sentences, desc="Annotation en cours"):
         response = ollama.chat(
             model="urbaniste", messages=[{"role": "user", "content": sentence}]
         )
         annotation = response["message"]["content"].strip()
+
         if MODEL.startswith("deepseek"):
-            annotation = "".join(filter(str.isdigit, annotation))[:1]
+            print(f"🟡 DEBUG - Réponse brute du modèle : {annotation}")  # Debugging
+            annotation = "".join(filter(str.isdigit, annotation))[:1]  # Ne garde que 0 ou 1
+
         try:
-            results.append(int(annotation[0]))
-        except ValueError:
-            results.append(-1)
-            continue
+            annotation_int = int(annotation)
+            if annotation_int in [0, 1]:  # Vérification finale
+                results.append(annotation_int)
+            else:
+                raise ValueError("Valeur inattendue")
+        except (ValueError, IndexError):
+            print(f"⚠️ Erreur : Réponse inattendue -> {annotation}")  # Debugging
+            results.append(-1)  # Valeur par défaut pour éviter un crash
+
     return results
+
 
 
 def get_downsampled(df) -> pd.DataFrame:
@@ -50,17 +59,26 @@ def get_downsampled(df) -> pd.DataFrame:
 
 
 def get_annotated_df(csv_file: str, save=True) -> pd.DataFrame:
+    """
+    Charge un fichier CSV, applique un downsampling et annote les phrases.
+    """
     df = pd.read_csv(csv_file, sep="|")
     downsampled_df = get_downsampled(df)
     sentences = downsampled_df["sentence"].tolist()
     annotations = annotate_with_ollama(sentences)
     downsampled_df["annotation"] = annotations
+
+    # Suppression des annotations invalides (-1) UNIQUEMENT si le modèle est DeepSeek
+    if MODEL.startswith("deepseek"):
+        print("🟡 INFO : Suppression des annotations invalides pour DeepSeek")
+        downsampled_df = downsampled_df[downsampled_df["annotation"] != -1]
+
     if save:
         os.makedirs(ANNOTATIONS_PATH, exist_ok=True)
-        downsampled_df.to_csv(
-            f"{ANNOTATIONS_PATH}/{csv_file.split('/')[-1]}", sep="|", index=False
-        )
+        downsampled_df.to_csv(f"{ANNOTATIONS_PATH}/{os.path.basename(csv_file)}", sep="|", index=False)
+
     return downsampled_df
+
 
 
 def save_results(metrics: Metrics, conf_matrix, filename):
