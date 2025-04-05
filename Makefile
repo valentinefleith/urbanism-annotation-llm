@@ -31,7 +31,7 @@ run: $(VENV)
 	@echo "$(BLUE)Running project...$(RESET)"
 	$(VENV)/bin/python src/main.py
 
-evaluation: $(VENV)
+eval: $(VENV)
 	@echo "$(BLUE)Computing_evaluation...$(RESET)"
 	$(VENV)/bin/python src/global_evaluation.py
 

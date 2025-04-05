@@ -1,12 +1,12 @@
+import os
 import pandas as pd
 import glob
 import statistics as s
 from rich.console import Console
 from rich.table import Table
+from load_config import Config
 
-
-RESULTS_PATH = "results/classification/first_tests"  # for testing
-# RESULTS_PATH = "results/classification/promptv1 # uncomment when we have new results
+CONFIG = Config()
 
 
 class Results:
@@ -55,7 +55,7 @@ def get_model_names(results_files: list[str]) -> list[str]:
     return list(set([file.split("/")[-2] for file in results_files]))
 
 
-def compute_global_results(result_files, model_names) -> pd.DataFrame:
+def compute_global_results(result_files, model_names) -> pd.DataFrame | None:
     results = [Results(model, result_files) for model in model_names]
     compared_results = pd.DataFrame(
         {
@@ -94,13 +94,15 @@ def pretty_print(compared_results: pd.DataFrame):
 
 
 def main():
-    results_files = glob.glob(f"{RESULTS_PATH}/*/*.csv")
+    result_path = os.path.join(CONFIG.root_dir_path, CONFIG.result_save_path)
+    results_files = glob.glob(f"{result_path}/*/*.csv")
     model_names = get_model_names(results_files)
-    if not model_names:
+    if not model_names or not results_files:
         print("No results to display.")
     global_results = compute_global_results(results_files, model_names)
     pretty_print(global_results)
-    global_results.to_csv(f"{RESULTS_PATH}/global.csv")
+    os.makedirs(result_path, exist_ok=True)
+    global_results.to_csv(f"{result_path}/global.csv")
 
 
 if __name__ == "__main__":

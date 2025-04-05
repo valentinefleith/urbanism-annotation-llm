@@ -62,7 +62,7 @@ This executes `main.py` which:
 
 Once you tested on any model you want, you can compare the results:
 ```bash
-make evaluation
+make eval
 ```
 
 ---

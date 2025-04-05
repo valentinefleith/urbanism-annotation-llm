@@ -5,27 +5,24 @@ import glob
 from evaluation import Metrics, evaluate_annotation, pretty_print
 from tqdm import tqdm
 from sklearn.utils import resample
-from load_config import load_config
+from load_config import Config
 
-MODEL = "deepseek-r1:1.5b"
-CSV_PATH = "corpus/corpus_phrases/"
-ANNOTATIONS_PATH = f"annotations/annotations_llm/promptv1/{MODEL}"
-RESULTS_PATH = f"results/classification/promptv1/{MODEL}"
+CONFIG = Config()
 
 
 def annotate_with_ollama(sentences: pd.DataFrame) -> list:
     results = []
     for sentence in tqdm(sentences, desc="Annotation en cours"):
         response = ollama.chat(
-            model="urbaniste", messages=[{"role": "user", "content": sentence}]
+            model=CONFIG.custom_model, messages=[{"role": "user", "content": sentence}]
         )
         annotation = response["message"]["content"].strip()
 
-        if MODEL.startswith("deepseek"):
+        if CONFIG.model.startswith("deepseek"):
             print(f"🟡 DEBUG - Réponse brute du modèle : {annotation}")
         try:
             annotation = (
-                annotation[-1] if MODEL.startswith("deepseek") else annotation[0]
+                annotation[-1] if CONFIG.model.startswith("deepseek") else annotation[0]
             )
             results.append(int(annotation))
         except (ValueError, IndexError):
@@ -55,7 +52,7 @@ def get_downsampled(df) -> pd.DataFrame:
     )
 
 
-def get_annotated_df(csv_file: str, save=True) -> pd.DataFrame:
+def get_annotated_df(csv_file: str) -> pd.DataFrame:
     """
     Charge un fichier CSV, applique un downsampling et annote les phrases.
     """
@@ -70,47 +67,65 @@ def get_annotated_df(csv_file: str, save=True) -> pd.DataFrame:
     print(f"{nb_of_invalid} lignes sont invalides et donc supprimees.")
     downsampled_df = downsampled_df[downsampled_df["annotation"] != -1]
 
-    if save:
-        os.makedirs(ANNOTATIONS_PATH, exist_ok=True)
+    if CONFIG.save_annotations:
+        annotation_path = os.path.join(
+            CONFIG.root_dir_path, CONFIG.model_annotations_save_path, CONFIG.model
+        )
+        os.makedirs(annotation_path, exist_ok=True)
         downsampled_df.to_csv(
-            f"{ANNOTATIONS_PATH}/{os.path.basename(csv_file)}", sep="|", index=False
+            f"{annotation_path}/{os.path.basename(csv_file)}", sep="|", index=False
         )
 
     return downsampled_df
 
 
 def save_results(metrics: Metrics, conf_matrix, filename):
-    os.makedirs(RESULTS_PATH, exist_ok=True)
-    metrics_df = pd.DataFrame(
-        {
-            "Metric": ["Accuracy", "Precision", "Recall", "F1-Score"],
-            "Score": [metrics.accuracy, metrics.precision, metrics.recall, metrics.f1],
-        }
-    )
-    metrics_df.to_csv(f"{RESULTS_PATH}/{filename}", index=False)
-    conf_matrix_df = pd.DataFrame(
-        conf_matrix, columns=["Predicted False", "Predicted Dynamic"]
-    )
-    conf_matrix_df.index = ["Actual False", "Actual Dynamic"]
-    os.makedirs(f"{RESULTS_PATH}/matrices", exist_ok=True)
-    conf_matrix_df.to_csv(
-        f"{RESULTS_PATH}/matrices/{filename.split('.')[0]}_confusion_matrix.csv"
-    )
+    if CONFIG.save_result_metrics:
+        result_path = os.path.join(CONFIG.result_save_path, CONFIG.model)
+        os.makedirs(result_path, exist_ok=True)
+        metrics_df = pd.DataFrame(
+            {
+                "Metric": ["Accuracy", "Precision", "Recall", "F1-Score"],
+                "Score": [
+                    metrics.accuracy,
+                    metrics.precision,
+                    metrics.recall,
+                    metrics.f1,
+                ],
+            }
+        )
+        metrics_df.to_csv(f"{result_path}/{filename}", index=False)
+
+    if CONFIG.save_result_matrices:
+        conf_matrix_df = pd.DataFrame(
+            conf_matrix, columns=["Predicted False", "Predicted Dynamic"]
+        )
+        conf_matrix_df.index = ["Actual False", "Actual Dynamic"]
+        matrices_path = os.path.join(
+            CONFIG.root_dir_path, CONFIG.result_save_path, CONFIG.model, "matrices"
+        )
+        os.makedirs(matrices_path, exist_ok=True)
+        conf_matrix_df.to_csv(
+            f"{matrices_path}/{filename.split('.')[0]}_confusion_matrix.csv"
+        )
 
 
-def main(config):
-    all_csv_files = glob.glob(CSV_PATH + "/*.csv")
+def main():
+    csv_path = os.path.join(CONFIG.root_dir_path, CONFIG.csv_corpus_path)
+    all_csv_files = glob.glob(f"{csv_path}/*.csv")
     for csv_file in all_csv_files:
         filename = csv_file.split("/")[-1]
         print(f"Currently loading {filename}...")
-        if os.path.isfile(f"{RESULTS_PATH}/{filename}"):
+        if CONFIG.skip_already_annotated and os.path.isfile(
+            f"{CONFIG.result_save_path}/{filename}"
+        ):
             continue
         annotated_df = get_annotated_df(csv_file)
         evaluation, conf_matrix = evaluate_annotation(annotated_df)
         pretty_print(evaluation, conf_matrix, filename)
-        save_results(evaluation, conf_matrix, filename)
+        if CONFIG.save_result_metrics or CONFIG.save_result_matrices:
+            save_results(evaluation, conf_matrix, filename)
 
 
 if __name__ == "__main__":
-    config = load_config()
-    main(config)
+    main()
