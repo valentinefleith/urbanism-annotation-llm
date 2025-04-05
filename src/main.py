@@ -5,6 +5,7 @@ import glob
 from evaluation import Metrics, evaluate_annotation, pretty_print
 from tqdm import tqdm
 from sklearn.utils import resample
+from load_config import load_config
 
 MODEL = "deepseek-r1:1.5b"
 CSV_PATH = "corpus/corpus_phrases/"
@@ -97,7 +98,7 @@ def save_results(metrics: Metrics, conf_matrix, filename):
     )
 
 
-def main():
+def main(config):
     all_csv_files = glob.glob(CSV_PATH + "/*.csv")
     for csv_file in all_csv_files:
         filename = csv_file.split("/")[-1]
@@ -111,4 +112,5 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    config = load_config()
+    main(config)

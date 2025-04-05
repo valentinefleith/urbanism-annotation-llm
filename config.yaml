@@ -1,0 +1,14 @@
+#MODEL INFORMATION
+model: "deepseek-r1:1.5b"
+custom_model: "urbaniste"
+
+# PATH-RELATED INFORMATION
+root_dir_path: "/Users/valentinefleith/Perso/code/projet-tuteure"
+csv_corpus_path: "corpus/corpus_phrases"
+model_annotations_save_path: "annotations/annotations_llm/promptv1"
+results_save_path: "results/classification/promptv1"
+
+# BOOLEAN INFORMATION
+skip_already_annotated: true
+save_result_metrics: true
+save_result_matrices: true

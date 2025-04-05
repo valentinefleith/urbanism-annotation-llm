@@ -51,6 +51,8 @@ lint: $(VENV)
 check: format lint
 	@echo "$(GREEN)✅ Code is ready to commit!$(RESET)"
 
+re: clean setup
+
 help:
 	@echo "$(YELLOW)Available commands:$(RESET)"
 	@echo "  $(GREEN)make setup      $(RESET) -> Install dependencies in a virtualenv (only if not existing)"
