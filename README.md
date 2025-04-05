@@ -1,4 +1,4 @@
-# Urbanism Annotation Project
+# Automatic annotation of ubran dynamics with LLMs: a comparative approach
 
 ## Overview
 This repo is part of a **university-supervised research project** on automatic text annotation in the field of urbanism.  
