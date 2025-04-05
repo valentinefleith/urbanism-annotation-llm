@@ -91,7 +91,9 @@ def save_results(metrics: Metrics, conf_matrix, filename):
         conf_matrix, columns=["Predicted False", "Predicted Dynamic"]
     )
     conf_matrix_df.index = ["Actual False", "Actual Dynamic"]
-    conf_matrix_df.to_csv(f"{RESULTS_PATH}/{filename}_confusion_matrix")
+    conf_matrix_df.to_csv(
+        f"{RESULTS_PATH}/{filename.split('.')[0]}_confusion_matrix.csv"
+    )
 
 
 def main():
