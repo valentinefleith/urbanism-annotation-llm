@@ -60,6 +60,11 @@ This executes `main.py` which:
 - Saves LLM annotation in `annotations/annotations_llm/{model-name}`
 - Evaluates the model and saves results in `results/classification/{model-name}`
 
+Once you tested on any model you want, you can compare the results:
+```bash
+make evaluation
+```
+
 ---
 ### TODO:
 - Configure model dynamically
