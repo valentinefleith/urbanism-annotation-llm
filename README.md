@@ -43,12 +43,30 @@ If you want to use another than Mistral, you can update it in the `Modelfile` by
 ```
 FROM <your-new-model>
 ```
-Don't forget to also update it on top of `main.py` :
-```py
-MODEL = "mistral"
+### 4. Configuration
+You have to modify `config.yaml` file according to your settings. Here are the required fields:
+```yaml
+# MODEL INFORMATION
+model: "deepseek-r1:1.5b"
+custom_model: "urbaniste"
+
+# PATH-RELATED INFORMATION
+root_dir_path: "/Users/valentinefleith/Perso/code/projet-tuteure"
+csv_corpus_path: "corpus/corpus_phrases"
+model_annotations_save_path: "annotations/annotations_llm/promptv1"
+results_save_path: "results/classification/promptv1"
+
+# BOOLEAN INFORMATION
+save_annotations: true
+skip_already_annotated: true
+save_result_metrics: true
+save_result_matrices: true
 ```
 
-### 4. Run the project
+NB: to get `root_dir_path`, just type `pwd` in a terminal from the root of this repository and paste the result.
+
+
+### 5. Run the project
 Once the installation is complete, run:
 
 ```bash
@@ -67,6 +85,5 @@ make eval
 
 ---
 ### TODO:
-- Configure model dynamically
 - Improve annotation accuracy by refining prompts
 - Support multiple annotation types beyond urban dynamics
