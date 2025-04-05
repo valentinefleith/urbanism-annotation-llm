@@ -7,7 +7,7 @@ from tqdm import tqdm
 from sklearn.utils import resample
 
 MODEL = "deepseek-r1:1.5b"
-CSV_PATH = "corpus/corpus_phrases"
+CSV_PATH = "corpus/corpus_phrases/test_prompt"
 ANNOTATIONS_PATH = f"annotations/annotations_llm/{MODEL}"
 RESULTS_PATH = f"results/classification/{MODEL}"
 
@@ -21,21 +21,17 @@ def annotate_with_ollama(sentences: pd.DataFrame) -> list:
         annotation = response["message"]["content"].strip()
 
         if MODEL.startswith("deepseek"):
-            print(f"🟡 DEBUG - Réponse brute du modèle : {annotation}")  # Debugging
-            annotation = "".join(filter(str.isdigit, annotation))[:1]  # Ne garde que 0 ou 1
-
+            print(f"🟡 DEBUG - Réponse brute du modèle : {annotation}")
         try:
-            annotation_int = int(annotation)
-            if annotation_int in [0, 1]:  # Vérification finale
-                results.append(annotation_int)
-            else:
-                raise ValueError("Valeur inattendue")
+            annotation = (
+                annotation[-1] if MODEL.startswith("deepseek") else annotation[0]
+            )
+            results.append(int(annotation))
         except (ValueError, IndexError):
-            print(f"⚠️ Erreur : Réponse inattendue -> {annotation}")  # Debugging
-            results.append(-1)  # Valeur par défaut pour éviter un crash
+            print(f"⚠️ Erreur : Réponse inattendue -> {annotation}")
+            results.append(-1)
 
     return results
-
 
 
 def get_downsampled(df) -> pd.DataFrame:
@@ -68,17 +64,18 @@ def get_annotated_df(csv_file: str, save=True) -> pd.DataFrame:
     annotations = annotate_with_ollama(sentences)
     downsampled_df["annotation"] = annotations
 
-    # Suppression des annotations invalides (-1) UNIQUEMENT si le modèle est DeepSeek
-    if MODEL.startswith("deepseek"):
-        print("🟡 INFO : Suppression des annotations invalides pour DeepSeek")
-        downsampled_df = downsampled_df[downsampled_df["annotation"] != -1]
+    print("🟡 INFO : Suppression des annotations invalides")
+    nb_of_invalid = len(downsampled_df["annotation"] == -1)
+    print(f"{nb_of_invalid} lignes sont invalides et donc supprimees.")
+    downsampled_df = downsampled_df[downsampled_df["annotation"] != -1]
 
     if save:
         os.makedirs(ANNOTATIONS_PATH, exist_ok=True)
-        downsampled_df.to_csv(f"{ANNOTATIONS_PATH}/{os.path.basename(csv_file)}", sep="|", index=False)
+        downsampled_df.to_csv(
+            f"{ANNOTATIONS_PATH}/{os.path.basename(csv_file)}", sep="|", index=False
+        )
 
     return downsampled_df
-
 
 
 def save_results(metrics: Metrics, conf_matrix, filename):
