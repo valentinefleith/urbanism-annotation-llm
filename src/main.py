@@ -7,9 +7,9 @@ from tqdm import tqdm
 from sklearn.utils import resample
 
 MODEL = "deepseek-r1:1.5b"
-CSV_PATH = "corpus/corpus_phrases/test_prompt"
-ANNOTATIONS_PATH = f"annotations/annotations_llm/{MODEL}"
-RESULTS_PATH = f"results/classification/{MODEL}"
+CSV_PATH = "corpus/corpus_phrases/"
+ANNOTATIONS_PATH = f"annotations/annotations_llm/promptv1/{MODEL}"
+RESULTS_PATH = f"results/classification/promptv1/{MODEL}"
 
 
 def annotate_with_ollama(sentences: pd.DataFrame) -> list:
@@ -91,8 +91,9 @@ def save_results(metrics: Metrics, conf_matrix, filename):
         conf_matrix, columns=["Predicted False", "Predicted Dynamic"]
     )
     conf_matrix_df.index = ["Actual False", "Actual Dynamic"]
+    os.makedirs(f"{RESULTS_PATH}/matrices", exist_ok=True)
     conf_matrix_df.to_csv(
-        f"{RESULTS_PATH}/{filename.split('.')[0]}_confusion_matrix.csv"
+        f"{RESULTS_PATH}/matrices/{filename.split('.')[0]}_confusion_matrix.csv"
     )
 
 
