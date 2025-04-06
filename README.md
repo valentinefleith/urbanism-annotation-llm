@@ -1,3 +1,6 @@
+[![image](https://github.com/user-attachments/assets/d7aeeb94-365a-48e0-98db-ca412f5a36a4)](https://ollama.com/)
+
+
 # Automatic annotation of ubran dynamics with LLMs: a comparative approach
 
 ## Overview
@@ -12,8 +15,8 @@ The model is configured using a **Modelfile** located in `prompt-playground/conf
 
 ### 1. Clone the Repository
 ```bash
-git clone git@github.com:valentinefleith/projet-tuteure.git
-cd projet-tuteure
+git clone git@github.com:valentinefleith/urbanism-annotation-llm.git
+cd urbanism-annotation-llm
 ```
 ### 2. Install Dependencies
 
@@ -28,21 +31,26 @@ make
 ```
 
 ### 3. Install Ollama and required model
-Before running the project, install **Ollama** and the necessary LLM model. For example:
+Before running the project, install **Ollama** following the [documentation](https://ollama.com/download) and the LLM model that you want. For example:
 ```bash
 ollama install mistral
 ```
-The model behavior is defined in `prompt-playground/config/Modelfile`. This file controls the **system prompt** and how the model processes urbanism-related texts.
+The model behavior is defined in a `Modelfile` config file. There are a few examples in the `prompt-playground/prompts` directory. This Modelfile controls the **system prompt** and how the model processes urbanism-related texts.
 
-To build the model, type:
-```bash
-ollama create urbaniste -f ./prompt-playground/config/Modelfile
-```
+At the top of the `Modelfile`, make sure to configure properly the name of the model that you just installed.
 
-If you want to use another than Mistral, you can update it in the `Modelfile` by changing the `FROM` line:
+For example, if you want to use another model than Mistral, you can update it in the `Modelfile` by changing the `FROM` line:
 ```
 FROM <your-new-model>
 ```
+
+Finally, to build the model, type:
+```bash
+ollama create urbaniste -f ./prompt-playground/config/Modelfile
+```
+If you change the model name (something else that `urbaniste`, make sure to update it properly in the `config.yaml` file (cf. section 4).
+
+
 ### 4. Configuration
 You have to modify `config.yaml` file according to your settings. Here are the required fields:
 ```yaml
@@ -77,6 +85,10 @@ This executes `main.py` which:
 - Processes text and **classifies urban dynamics**
 - Saves LLM annotation in `annotations/annotations_llm/{model-name}`
 - Evaluates the model and saves results in `results/classification/{model-name}`
+
+During the running, it prints the result tables which are also saved. For example:
+![image](https://github.com/user-attachments/assets/159eb060-5526-46ba-8373-26a5400ce66f)
+
 
 Once you tested on any model you want, you can compare the results:
 ```bash
