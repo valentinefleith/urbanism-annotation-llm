@@ -6,11 +6,13 @@ from sklearn.metrics import (
     confusion_matrix,
 )
 from collections import namedtuple
+import pandas as pd
 
 Metrics = namedtuple("Metrics", ["accuracy", "precision", "recall", "f1"])
 
 
 def evaluate_annotation(annotated_df):
+    print(annotated_df)
     y_true = annotated_df["dynamic"].tolist()
     y_pred = annotated_df["annotation"].tolist()
     accuracy = accuracy_score(y_true, y_pred)
@@ -43,8 +45,20 @@ def pretty_print(metrics: Metrics, conf_matrix, filename) -> None:
     conf_table.add_column("")
     conf_table.add_column("Predicted False", justify="center", style="bold green")
     conf_table.add_column("Predicted Dynamic", justify="center", style="bold green")
-
     conf_table.add_row("Actual False", str(conf_matrix[0][0]), str(conf_matrix[0][1]))
     conf_table.add_row("Actual Dynamic", str(conf_matrix[1][0]), str(conf_matrix[1][1]))
 
     console.print(conf_table)
+
+
+if __name__ == "__main__":
+    annotated_df = pd.read_csv(
+        "annotations/annotations_llm/deepseek-r1:1.5b/1958-padog_CE_Oct23_GP.csv",
+        sep="|",
+    )
+    metrics, conf_matrix = evaluate_annotation(annotated_df)
+    pretty_print(
+        metrics,
+        conf_matrix,
+        "annotations/annotations_llm/deepseek-r1:1.5b/1958-padog_CE_Oct23_GP.csv",
+    )

@@ -1,0 +1,15 @@
+# MODEL INFORMATION
+model: "mistral"
+custom_model: "urbaniste"
+
+# PATH-RELATED INFORMATION
+root_dir_path: "/home/val/Cours/M2_TAL/projet_tuteure/repo"
+csv_corpus_path: "corpus/corpus_phrases"
+model_annotations_save_path: "annotations/annotations_llm/promptv2"
+results_save_path: "results/classification/promptv2"
+
+# BOOLEAN INFORMATION
+save_annotations: true
+skip_already_annotated: true
+save_result_metrics: true
+save_result_matrices: true

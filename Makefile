@@ -31,6 +31,10 @@ run: $(VENV)
 	@echo "$(BLUE)Running project...$(RESET)"
 	$(VENV)/bin/python src/main.py
 
+eval: $(VENV)
+	@echo "$(BLUE)Computing_evaluation...$(RESET)"
+	$(VENV)/bin/python src/global_evaluation.py
+
 format: $(VENV)
 	@echo "$(CYAN)🎨 Formatting code with Black...$(RESET)"
 	@$(BLACK) .
@@ -46,6 +50,8 @@ lint: $(VENV)
 # check: format lint test
 check: format lint
 	@echo "$(GREEN)✅ Code is ready to commit!$(RESET)"
+
+re: clean setup
 
 help:
 	@echo "$(YELLOW)Available commands:$(RESET)"
