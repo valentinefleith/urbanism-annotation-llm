@@ -1,12 +1,12 @@
 # MODEL INFORMATION
-model: "mistral"
+model: "deepseek-r1:7b"
 custom_model: "urbaniste"
 
 # PATH-RELATED INFORMATION
-root_dir_path: "/home/val/Cours/M2_TAL/projet_tuteure/repo"
+root_dir_path: "/home/zina/projet-tuteure"
 csv_corpus_path: "corpus/corpus_phrases"
-model_annotations_save_path: "annotations/annotations_llm/promptv2"
-results_save_path: "results/classification/promptv2"
+model_annotations_save_path: "annotations/annotations_llm/promptv1"
+results_save_path: "results/classification/promptv1"
 
 # BOOLEAN INFORMATION
 save_annotations: true
