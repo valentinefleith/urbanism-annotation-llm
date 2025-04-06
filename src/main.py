@@ -24,10 +24,13 @@ def annotate_with_ollama(sentences: pd.DataFrame) -> list:
             annotation = (
                 annotation[-1] if CONFIG.model.startswith("deepseek") else annotation[0]
             )
-            results.append(int(annotation))
+            if int(annotation) in [0, 1]:
+                results.append(int(annotation))
+            else:
+                results.append(-1)
         except (ValueError, IndexError):
             print(f"⚠️ Erreur : Réponse inattendue -> {annotation}")
-            results.append(-1)
+            results.append(0)
 
     return results
 
@@ -63,7 +66,7 @@ def get_annotated_df(csv_file: str) -> pd.DataFrame:
     downsampled_df["annotation"] = annotations
 
     print("🟡 INFO : Suppression des annotations invalides")
-    nb_of_invalid = len(downsampled_df["annotation"] == -1)
+    nb_of_invalid = len(downsampled_df[downsampled_df["annotation"] == -1])
     print(f"{nb_of_invalid} lignes sont invalides et donc supprimees.")
     downsampled_df = downsampled_df[downsampled_df["annotation"] != -1]
 
@@ -117,7 +120,7 @@ def main():
         filename = csv_file.split("/")[-1]
         print(f"Currently loading {filename}...")
         if CONFIG.skip_already_annotated and os.path.isfile(
-            f"{CONFIG.result_save_path}/{filename}"
+            f"{CONFIG.result_save_path}/{CONFIG.model}/{filename}"
         ):
             continue
         annotated_df = get_annotated_df(csv_file)
