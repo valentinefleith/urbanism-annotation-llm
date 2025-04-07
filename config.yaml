@@ -3,7 +3,7 @@ model: "deepseek-r1:7b"
 custom_model: "urbaniste"
 
 # PATH-RELATED INFORMATION
-root_dir_path: "/home/zina/projet-tuteure"
+root_dir_path: "/Users/valentinefleith/Perso/code/projet-tuteure"
 csv_corpus_path: "corpus/corpus_phrases"
 model_annotations_save_path: "annotations/annotations_llm/promptv2"
 results_save_path: "results/classification/promptv2"
