@@ -12,7 +12,6 @@ Metrics = namedtuple("Metrics", ["accuracy", "precision", "recall", "f1"])
 
 
 def evaluate_annotation(annotated_df):
-    print(annotated_df)
     y_true = annotated_df["dynamic"].tolist()
     y_pred = annotated_df["annotation"].tolist()
     accuracy = accuracy_score(y_true, y_pred)

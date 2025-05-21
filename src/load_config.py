@@ -5,9 +5,10 @@ from rich.text import Text
 
 
 class Config:
-    def __init__(self, config_path="config.yaml"):
+    def __init__(self, config_path="config.yaml", print_config=True):
         self.as_dict: dict = self.load_config(config_path)
         self.model: str = self.as_dict["model"]
+        self.task: str = self.as_dict["task"]
         self.custom_model: str = self.as_dict["custom_model"]
         self.root_dir_path: str = self.as_dict["root_dir_path"]
         self.csv_corpus_path: str = self.as_dict["csv_corpus_path"]
@@ -19,7 +20,8 @@ class Config:
         self.save_annotations: bool = self.as_dict["save_annotations"]
         self.save_result_metrics: bool = self.as_dict["save_result_metrics"]
         self.save_result_matrices: bool = self.as_dict["save_result_matrices"]
-        self.display_config()
+        if print_config:
+            self.display_config()
 
     def load_config(self, config_path):
         with open(config_path, "r") as inf:
@@ -33,6 +35,8 @@ class Config:
             raise ValueError("Model name must be a string.")
         if not isinstance(config["custom_model"], str):
             raise ValueError("Custom model name must be a string.")
+        if not isinstance(config["task"], str):
+            raise ValueError("Task name must be a string.")
         if not os.path.isdir(config["root_dir_path"]):
             raise FileNotFoundError("Root directory path not found.")
         if not os.path.isdir(config["csv_corpus_path"]):
