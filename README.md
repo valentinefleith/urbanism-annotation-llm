@@ -94,6 +94,9 @@ Once you tested on any model you want, you can compare the results:
 ```bash
 make eval
 ```
+Example output:
+
+<img width="472" alt="image" src="https://github.com/user-attachments/assets/bb71d538-7867-4f3f-bf7a-97a434966e96" />
 
 ---
 ### TODO:
