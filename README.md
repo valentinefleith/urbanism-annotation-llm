@@ -98,4 +98,5 @@ make eval
 ---
 ### TODO:
 - Improve annotation accuracy by refining prompts
+- Support extraction of urban dynamics
 - Support multiple annotation types beyond urban dynamics
