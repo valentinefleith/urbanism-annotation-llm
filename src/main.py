@@ -1,6 +1,8 @@
 import os
+
 import glob
 from binary_classification import perform_binary_classification
+from multiclass_classification import perform_multiclass_classification
 from load_config import ClassificationTypes, Config
 
 CONFIG = Config()
@@ -19,8 +21,7 @@ def main():
         if CONFIG.classification == ClassificationTypes.Binary:
             perform_binary_classification(csv_file, filename)
         else:
-            print("coucou")
-            # perform_multiclass_classification(csv_file)
+            perform_multiclass_classification(csv_file, filename)
 
 
 if __name__ == "__main__":

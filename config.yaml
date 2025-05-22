@@ -3,16 +3,16 @@ model: "llama3.1"
 custom_model: "fake_urbaniste"
 
 # TASK
-classification: "binary" # or "multiclass"
+classification: "multiclass" # "binary" or "multiclass"
 
 # PATH-RELATED INFORMATION
 root_dir_path: "/Users/valentinefleith/Perso/code/urbanism-annotation-llm"
 csv_corpus_path: "corpus/corpus_phrases/multiclass_classification"
-model_annotations_save_path: "annotations/annotations_llm/promptv1"
-results_save_path: "results/classification/promptv1"
+model_annotations_save_path: "annotations/multiclass"
+results_save_path: "results/multiclass"
 
 # BOOLEAN INFORMATION
-save_annotations: false
+save_annotations: true
 skip_already_annotated: false
-save_result_metrics: false
-save_result_matrices: false
+save_result_metrics: true
+save_result_matrices: true

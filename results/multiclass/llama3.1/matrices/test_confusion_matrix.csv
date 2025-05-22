@@ -1,0 +1,6 @@
+,crea,destr,modi,rep,main
+crea,1,0,0,0,0
+destr,0,0,1,0,0
+modi,0,1,0,0,0
+rep,0,0,0,1,0
+main,0,0,0,0,1

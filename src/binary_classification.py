@@ -62,19 +62,15 @@ def get_annotated_df(csv_file: str) -> pd.DataFrame:
     Charge un fichier CSV, applique un downsampling et annote les phrases.
     """
     df = pd.read_csv(csv_file, sep="|")
-    if CONFIG.classification == ClassificationTypes.Binary:
-        downsampled_df = get_downsampled(df)
-        sentences = downsampled_df["sentence"].tolist()
-        annotations = annotate_with_ollama_binary(sentences)
-        downsampled_df["annotation"] = annotations
+    downsampled_df = get_downsampled(df)
+    sentences = downsampled_df["sentence"].tolist()
+    annotations = annotate_with_ollama_binary(sentences)
+    downsampled_df["annotation"] = annotations
 
-        print("🟡 INFO : Suppression des annotations invalides")
-        nb_of_invalid = len(downsampled_df[downsampled_df["annotation"] == -1])
-        print(f"{nb_of_invalid} lignes sont invalides et donc supprimees.")
-        downsampled_df = downsampled_df[downsampled_df["annotation"] != -1]
-    else:
-        downsampled_df = df
-        print("coucou")
+    print("🟡 INFO : Suppression des annotations invalides")
+    nb_of_invalid = len(downsampled_df[downsampled_df["annotation"] == -1])
+    print(f"{nb_of_invalid} lignes sont invalides et donc supprimees.")
+    downsampled_df = downsampled_df[downsampled_df["annotation"] != -1]
 
     if CONFIG.save_annotations:
         annotation_path = os.path.join(
@@ -121,7 +117,11 @@ def save_results(metrics: Metrics, conf_matrix, filename):
 
 def perform_binary_classification(csv_file: str, filename: str):
     annotated_df = get_annotated_df(csv_file)
-    evaluation, conf_matrix = evaluate_annotation(annotated_df)
-    pretty_print(evaluation, conf_matrix, filename)
+    print(annotated_df)
+    evaluation, conf_matrix = evaluate_annotation(
+        annotated_df, ClassificationTypes.Binary
+    )
+    print(conf_matrix)
+    pretty_print(evaluation, conf_matrix, filename, type=ClassificationTypes.Binary)
     if CONFIG.save_result_metrics or CONFIG.save_result_matrices:
         save_results(evaluation, conf_matrix, filename)
