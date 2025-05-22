@@ -1,6 +1,6 @@
 # MODEL INFORMATION
 model: "llama3.1"
-custom_model: "fake_urbaniste"
+custom_model: "urbaniste"
 
 # TASK
 classification: "multiclass" # "binary" or "multiclass"

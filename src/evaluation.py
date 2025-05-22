@@ -18,7 +18,7 @@ def evaluate_annotation(annotated_df, type: ClassificationTypes):
     if type == ClassificationTypes.Binary:
         y_true = annotated_df["dynamic"].tolist()
     else:
-        y_true = annotated_df["dynamic_type"].tolist()
+        y_true = annotated_df["dynamique_type"].tolist()
     y_pred = annotated_df["annotation"].tolist()
     accuracy = accuracy_score(y_true, y_pred)
     if type == ClassificationTypes.Binary:

@@ -2,7 +2,7 @@
 import pandas as pd
 import os
 
-CSV_PATH = "nature.csv" 
+CSV_PATH = "nature.csv"
 OUTPUT_DIR = "nature_dyn"
 
 
@@ -19,15 +19,15 @@ def recup_nature():
     df = pd.read_csv(CSV_PATH, sep="|")
     df = df[["fichier", "dynamique_text", "dynamique_type"]]
 
-    #on garde tous les types sauf "ab"
+    # on garde tous les types sauf "ab"
     df = df[df["dynamique_type"] != "ab"]
 
-    #remplacement les abréviations par les noms complets 
-    df.loc[df["dynamique_type"] == "cre",  "dynamique_type"] = "crea"
+    # remplacement les abréviations par les noms complets
+    df.loc[df["dynamique_type"] == "cre", "dynamique_type"] = "crea"
     df.loc[df["dynamique_type"] == "dest", "dynamique_type"] = "destr"
     df.loc[df["dynamique_type"] == "modi", "dynamique_type"] = "modif"
     df.loc[df["dynamique_type"] == "main", "dynamique_type"] = "maint"
-    df.loc[df["dynamique_type"] == "rep",  "dynamique_type"] = "repr"
+    df.loc[df["dynamique_type"] == "rep", "dynamique_type"] = "repr"
 
     # créer dossier output s'il n'existe pas
     if not os.path.exists(OUTPUT_DIR):

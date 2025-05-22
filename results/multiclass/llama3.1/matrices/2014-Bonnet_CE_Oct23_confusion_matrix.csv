@@ -1,0 +1,6 @@
+,crea,destr,modif,repr,maint
+crea,42,12,47,35,11
+destr,0,2,0,0,0
+modif,2,5,20,8,2
+repr,0,1,6,15,1
+maint,0,2,0,2,17

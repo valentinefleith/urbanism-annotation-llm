@@ -1,0 +1,612 @@
+dynamique_text|dynamique_type|annotation
+percées|destr|destr
+sans cesse grandissantes|crea|modif
+les trouées des routes nationales|destr|destr
+tombaient les fortifications de Thiers|destr|destr
+les zones d'extension de l'agglomération|crea|crea
+cette expansion|crea|crea
+avaient triplé|crea|destr
+ce triplement parisien|crea|repr
+poursuite de la croissance urbaine générale|crea|modif
+un développement accentué des villes de province|crea|modif
+un développement moindre de la région de Paris|crea|modif
+la croissance de la région de Paris serait de 36 %|crea|modif
+s'accroîtraient ensemble de 54 %|crea|modif
+cet accroissement de la région de Paris|crea|modif
+un doublement en superficie d'un tissu urbain analogue à celui d'aujourd'hui|crea|modif
+La croissance de Paris|crea|crea
+auraient en moyenne plus que doublé|crea|destr
+n'augmenterait que des deux tiers|crea|destr
+augmenteraient|crea|destr
+n'augmenterait que de 1,5 %|crea|destr
+un ralentissement de la croissance de la région de Paris|crea|modif
+une accélération de la croissance des autres agglomérations|crea|modif
+CROISSANCE DES MÉTROPOLES D’ÉQUILIBRE|crea|crea
+double|crea|modif
+progresseront plus faiblement|crea|maint
+augmentent davantage|crea|destr
+triplent|crea|destr
+un triplement|crea|repr
+CROISSANCE DES AGGLOMÉRATIONS IMPORTANTES DU BASSIN PARISIEN|crea|modif
+CROISSANCE DES AGGLOMÉRATIONS MOYENNES	DU BASSIN PARISIEN|crea|modif
+la croissance spontanée d'autres villes dynamiques|crea|modif
+accroissement de la région de Paris|crea|crea
+augmentent de 3% chaque année|crea|maint
+auront soutenu un accroissement annuel de l'ordre de 2,5 % en moyenne|crea|modif
+voir rapidement grandir les autres villes de France|crea|crea
+deviendra plus grand|crea|modif
+leur essor|crea|modif
+une extension progressive|crea|repr
+l'orienter à mesure qu'elle se produira|crea|repr
+son extension spatiale|crea|crea
+presque doublés|crea|repr
+les usines et les bureaux construits|crea|crea
+bâtiments construits|crea|crea
+existent encore|maint|destr
+devraient être systématiquement détruits|destr|destr
+une extension en surface|crea|crea
+superficie multipliée par 5|crea|destr
+cette évolution spontanée|crea|repr
+superficie doublée|crea|modif
+superficie triplée|crea|modif
+seront construits|crea|crea
+remplaceront une partie des équipements actuellement existants|repr|modif
+la démolition|destr|destr
+seraient reconstruits|repr|destr
+les installations et les bâtiments de remplacement|repr|repr
+surface multipliée par 2|crea|destr
+surface multipliée par 3|crea|destr
+surface multipliée par 4|crea|destr
+densifier abusivement les rares terrains disponibles|crea|destr
+garder des réserves|maint|maint
+aller construire|crea|crea
+leur extension|crea|crea
+expansion des autres régions|crea|crea
+telle ou telle réalisation|crea|repr
+"""construire beau"""|crea|crea
+leur implantation|crea|repr
+une bonne implantation|crea|repr
+"l'implantation des logements, des ateliers, des bureaux, des >services publics, des <lieu type=""obj"" n=2><res n=2>transports</res></lieu></dyn>"|crea|modif
+zones construites|crea|modif
+un secteur de rénovation|repr|modif
+une zone à urbaniser par priorité|crea|crea
+la réalisation des grands ouvrages et des programmes d’équipement|crea|crea
+implanteront les équipements|crea|crea
+réalisation des grands équipements d'infrastructure, particulièrement de voies ferrées et d'autoroutes|crea|crea
+peut être réalisé aisément et à coût normal|crea|maint
+La réalisation effective d'une région urbaine|crea|repr
+les poussées de la ville|crea|repr
+les extensions en surface de cette agglomération|crea|modif
+cet agrandissement d'une trame urbaine|crea|modif
+ont déjà étendue|crea|modif
+la croissance d'une ville|crea|crea
+successivement franchies|crea|destr
+a toujours grandi|crea|modif
+faire mourir Paris|destr|destr
+la croissance de l'agglomération|crea|modif
+l'entretien de ses voies et de ses jardins|maint|maint
+les zones construites|crea|destr
+a dévoré le petit département de la Seine|crea|destr
+a mangé le curieux anneau circulaire de Seine-et-Oise|crea|destr
+a même mordu sur la Seine-et-Marne|crea|destr
+en formeront huit|modif|destr
+sa croissance|crea|modif
+la rénovation|repr|modif
+la disparition rapide des espaces libres|destr|destr
+ont été construits|crea|crea
+construits|crea|crea
+Les constructions n'ont en effet repris|crea|repr
+13.000 logements terminés|crea|modif
+750.000 logements terminés|crea|destr
+plus de 200.000 logements en cours de construction|crea|crea
+aura construit, depuis 1953, plus d'un million de logements|crea|modif
+aura bâti un autre Paris|crea|destr
+s'étend en doigts de gant|crea|destr
+se colmatent|crea|destr
+ont été implantés|crea|destr
+espaces libres en voie de disparition|destr|destr
+quartiers vétustes trop lentement repris par la rénovation|repr|repr
+Les constructions réalisées|crea|crea
+ont fait disparaître beaucoup des espaces libres qui existaient|destr|destr
+L'extension des surfaces bâties|crea|crea
+"développement ""en tache d'huile"""|crea|modif
+l'agrandissement|crea|crea
+la croissance passée de l'agglomération de Paris|crea|modif
+des extensions linéaires|crea|crea
+la construction des voies ferrées|crea|crea
+le comblement des espaces interstitiels|crea|modif
+se construisent|crea|crea
+s'étend|crea|crea
+ces axes nouveaux|crea|repr
+demeurent libres|maint|maint
+"ces extensions ""linéaires"""|crea|repr
+la fin du développement en tache d'huile|crea|destr
+les extensions linéaires|crea|repr
+veut construire|crea|crea
+deux ou trois zones déjà construites|crea|modif
+équipées en réseaux d'eau, d'assainissement et d'électricité|crea|destr
+le rythme de construction à soutenir|crea|maint
+seraient rapidement construits|crea|crea
+un nouvel anneau continu de constructions|crea|crea
+les espaces libres disparus|destr|destr
+ont été presqu'exclusivement édifiés|crea|destr
+leur construction|crea|crea
+placer|crea|maint
+ont été mis|crea|destr
+demeurer en l'état|maint|maint
+n'est guère possible de conserver longtemps des terres agricoles presqu'enclavées dans la ville|maint|modif
+être aménagés|modif|repr
+"recevoir des stades, des lycées, des facultés, des hôpitaux</lieu>, <lieu type=""obj"" n=2><res n=2>des zones d'emploi assez vastes</res></lieu></dyn>"|crea|modif
+la construction de logements|crea|crea
+l'aménagement des 5.000 hectares de Z.U.P.|crea|crea
+eut été préférable de bâtir|crea|destr
+des zones d'extension|crea|crea
+implanter des équipements pleinement satisfaisants|crea|crea
+sont demeurés concentrés|maint|maint
+la rénovation du tissu urbain existant|repr|modif
+l'extension de l'agglomération|crea|modif
+cette extension|crea|repr
+logements détruits|destr|destr
+cette rénovation|repr|modif
+50.000 logements à détruire|destr|destr
+la destruction de 36.000 logements anciens|destr|destr
+à remplacer|repr|destr
+55.000 logements nouveaux|crea|crea
+sont détruits|destr|destr
+sont construits|crea|crea
+la rénovation du secteur de la Défense|repr|modif
+rénovation|repr|modif
+la substitution à quelques maisons particulières de quelques dizaines d'appartements|modif|modif
+densification|crea|modif
+la réalisation ultérieure de ces équipements|crea|destr
+La rénovation|repr|modif
+la forme de rénovation|repr|modif
+la substitution de logements modernes|modif|modif
+"la mise en place des équipements absents - écoles, centres médicaux et sociaux, commerces</lieu>, <lieu type=""obj"" n=1><res n=1>terrains de jeux</res></lieu></dyn>"|crea|modif
+la reprise de la trame des rues|repr|repr
+les opérations de rénovation|repr|modif
+doit être préservée|maint|maint
+la réhabilitation|repr|modif
+la modernisation d'immeubles anciens|modif|modif
+des immeubles réhabilités|repr|modif
+une rénovation|repr|modif
+la rénovation nécessaire|repr|modif
+subsistera la pénurie de logements|maint|maint
+la réhabilitation et de la modernisation des vieux quartiers de Paris comme de ses banlieues|repr|modif
+dévore les espaces libres|crea|destr
+ne se rénovent qu'avec trop de lenteur|repr|modif
+allaient transformer les villes|modif|modif
+l'extension|crea|crea
+implantations d'activités|crea|crea
+Les grands ensembles construits|crea|modif
+ont été - à raison de 20 logements à l'hectare en moyenne - couverts de pavillons|crea|modif
+la zone construite|crea|modif
+subsistaient|maint|maint
+fallait empêcher de grandir|crea|destr
+la réduction progressive des espaces demeurés libres|modif|modif
+"un ""bourrage du terrain"|crea|destr
+conduire ses réseaux d'eau, d'égouts, d'électricité|crea|crea
+GROUPES DE LOGEMENTS CONSTRUITS|crea|crea
+la construction|crea|crea
+les constructions nouvelles|crea|crea
+l'implantation des activités|crea|crea
+toute création|crea|crea
+toute extension|crea|crea
+mètre carré construit|crea|crea
+les démolitions de locaux|destr|destr
+l'expansion des activités|crea|crea
+l'implantation d'activités|crea|crea
+l'implantation|crea|repr
+ont été créées|crea|crea
+leur mise en place|crea|repr
+s'implantent|crea|repr
+construire des installations modernes|crea|crea
+se remplisse la zone industrielle|crea|repr
+doivent y demeurer|maint|maint
+une stagnation|maint|maint
+a fait démarrer de grands travaux d'équipement public|crea|modif
+chantiers|crea|destr
+les mises en service|crea|repr
+allongement des quais|crea|modif
+ponts nouveaux|crea|crea
+nouveaux grands magasins|crea|crea
+refonte des réseaux de distribution d'électricité et de gaz|repr|modif
+extension des installations d'épuration|crea|crea
+constructions|crea|crea
+IMPLANTATION RÉCENTE D'ACTIVITÉS ET DE GRANDS ÉQUIPEMENTS|crea|modif
+sont à localiser|crea|repr
+plus de 1.200.000 logements en dix ans, soit l'équivalent d'une autre ville de Paris à construire|crea|crea
+la croissance inéluctable|crea|crea
+une agglomération, demain plus grande|crea|modif
+la croissance|crea|crea
+toute extension spatiale|crea|crea
+Conserver toutes les frontières|maint|maint
+conserver toutes les campagnes|maint|maint
+n'admettre la construction que parcimonieusement|crea|maint
+créer des centres urbains nouveaux|crea|crea
+villes nouvelles|crea|crea
+les zones d'extension|crea|crea
+centres urbains renforcés, diversifiés et rénovés|repr|modif
+mettre fin à la pénurie de terrains à bâtir|crea|destr
+la disparition des espaces libres|destr|destr
+l'extension spatiale|crea|crea
+la croissance progressive des villes nouvelles|crea|crea
+ses extensions|crea|destr
+les espaces construits|crea|repr
+des centres urbains nouveaux|crea|crea
+les grands ensembles récents|crea|modif
+se subdivise|modif|modif
+la naissance d'un centre|crea|crea
+s'accroît|crea|modif
+l'enceinte dite des Fermiers Généraux construite|crea|crea
+se constituent progressivement|crea|repr
+ces réseaux nouveaux|crea|repr
+leur réalisation|crea|repr
+La construction en dehors de l'agglomération d'un autre centre|crea|crea
+120.000 logements à construire|crea|crea
+seraient localisés|crea|repr
+quelle ville, même neuve|crea|repr
+ce centre urbain nouveau|crea|crea
+la création de tels centres intermédiaires|crea|crea
+a créé cinq départements nouveaux|crea|crea
+la restructuration des banlieues (Nanterre, Bobigny, Créteil)|repr|modif
+la création des centres urbains nouveaux|crea|crea
+les centres nouveaux|crea|repr
+constituer des centres urbains nouveaux|crea|crea
+seront implantés|crea|crea
+pourront se situer|crea|repr
+ne peuvent plus, faute de place, être localisés|crea|destr
+ces centres urbains nouveaux|crea|modif
+s’inséreront|crea|repr
+accueillera|crea|repr
+se localiser|crea|repr
+demeurera donc des quartiers-dortoirs|maint|destr
+les centres urbains nouveaux|crea|repr
+Implanter ces services publics et privés|crea|maint
+les nouvelles extensions de l'agglomération|crea|crea
+l'implantation d'équipements complémentaires|crea|crea
+la création du centre|crea|crea
+s'installe plus facilement|crea|maint
+zones d'extension|crea|crea
+ne se réaliseront pas de la même manière|crea|repr
+implantation|crea|modif
+une réalisation isolée, de logements|crea|destr
+la création progressive du centre urbain|crea|crea
+l'émiettement des banlieues|modif|modif
+"""restructurer"" la banlieue"|repr|repr
+Les centres urbains nouveaux|crea|modif
+sont maintenant prévues|crea|repr
+réalisations françaises|crea|repr
+projets français|crea|repr
+ces villes nouvelles|crea|repr
+"ces ""villes nouvelles"""|crea|repr
+"les ""villes nouvelles"""|crea|repr
+centres urbains nouveaux à créer|crea|crea
+certaines villes nouvelles|crea|repr
+80.000 à 100.000 logements construits|crea|crea
+étaient localisés|crea|destr
+être dispersés|crea|destr
+formeraient chaque année une ville de plus de 300.000 habitants, aussi grande que Toulouse et son agglomération|crea|modif
+substituer à un tissu urbain trop uniforme, à caractère dominant de dortoir et sous-équipé, des centres urbains aptes à assumer ce que les citadins d'aujourd'hui attendent de la ville|modif|modif
+bien reliés à l'ensemble de l'agglomération|crea|modif
+a été entrepris récemment une opération de rénovation totale|repr|modif
+implanter des équipements exceptionnels - grands musées d'art ou de techniques|crea|crea
+pourront y être placés|crea|destr
+se multiplient|crea|crea
+vont passer de trois à huit|crea|destr
+les villes nouvelles|crea|modif
+l'implantation systématique de villes|crea|crea
+axes d'urbanisation|crea|repr
+se sont créés|crea|crea
+"ont littéralement ""formé"" l'agglomération"|crea|destr
+donnant la forme qui apparaît sur la carte|crea|destr
+axes de transport nouveaux|crea|modif
+centres urbains nouveaux|crea|crea
+se construiront|crea|crea
+implantation des villes nouvelles|crea|modif
+l'urbanisation|crea|modif
+l'urbanisation consciente|crea|maint
+l'urbanisation spontanée|crea|modif
+lieux d'implantation|crea|destr
+L'implantation systématique des villes nouvelles|crea|crea
+se développer|crea|modif
+la croissance passée|crea|destr
+serait encore élargie|crea|repr
+ce processus|crea|repr
+L'extension en tache d'huile|crea|destr
+La disposition des villes nouvelles|crea|repr
+mettre fin à cette croissance indéfinie de l'agglomération|crea|destr
+plusieurs villes nouvelles puissantes|crea|modif
+l'allongement ou l'agrandissement de l'agglomération actuelle|crea|modif
+concentrer en plusieurs points les zones d'extension|crea|crea
+VILLES NOUVELLES CONÇUES|crea|crea
+recueillir les activités desserrées de l'agglomération parisienne|crea|repr
+le ralentissement de la croissance de Paris|crea|modif
+leur croissance|crea|modif
+leur extension rapide|crea|crea
+se localiseront|crea|repr
+s'installent|crea|repr
+des villes nouvelles|crea|modif
+localiser les zones d'extension et les villes nouvelles|crea|destr
+urbanisation|crea|modif
+la ville nouvelle|crea|modif
+pousser des pédoncules|crea|destr
+se rejoindraient|crea|repr
+la création de villes en couronne|crea|crea
+une extension de la tache d'huile|crea|destr
+des artères à créer|crea|crea
+la poursuite de l'expansion spatiale en tache d'huile|crea|modif
+la croissance des villes du bassin parisien|crea|modif
+l'implantation d'une couronne de villes intermédiaires|crea|modif
+une extension|crea|crea
+Les new-towns réalisées|crea|repr
+une extension de la ceinture verte|crea|crea
+un déplacement de la ceinture verte|modif|modif
+une extension de sa superficie totale|crea|crea
+nouvelles lignes ferrées ou de voies autoroutières|crea|crea
+un seul axe radial d'urbanisation|crea|repr
+les désirs d'agrandissement|crea|repr
+l'expansion|crea|crea
+la formation de doigts de gant|crea|destr
+comblement progressif des espaces intercalaires|crea|modif
+l'expansion de l'agglomération|crea|crea
+l'extension de Paris et de ses banlieues|crea|modif
+quelques axes d'urbanisation|crea|crea
+toute construction|crea|crea
+l'essentiel de l'urbanisation|crea|modif
+se matérialiser|crea|repr
+le dessin des zones|crea|maint
+seront urbanisées|crea|crea
+ces axes d'urbanisation|crea|repr
+doit par conséquent s'inscrire|crea|repr
+une véritable mutation|modif|repr
+la création de centres urbains nouveaux|crea|crea
+l'orientation de son développement|crea|repr
+une mutation égale|modif|repr
+canaliser l'extension de l'agglomération|crea|modif
+aménager de vastes espaces de campagne ou de zones faiblement urbanisées|crea|modif
+la naissance et la vitalité des centres urbains nouveaux|crea|crea
+établir enfin des liaisons efficaces|crea|repr
+aient été créées|crea|crea
+ont été réalisées|crea|destr
+relier Paris aux principales villes de France|crea|destr
+doublera le boulevard périphérique|crea|modif
+doit conduire à réaliser progressivement un réseau de transport|crea|crea
+constituer un réseau adapté à cette agglomération telle qu'elle est|crea|modif
+s’insérera|crea|repr
+a doté Paris intra-muros|crea|destr
+les extensions|crea|repr
+axes nouveaux, conçus|crea|repr
+l'extension de la zone agglomérée|crea|modif
+axes préférentiels d'urbanisation|crea|repr
+serait possible, et d'aucuns n'y ont pas manqué, de concevoir une grande agglomération telle que celle de Paris|crea|repr
+le maintien de son unité|maint|maint
+n'a cessé de grandir|crea|modif
+l'extension de la ville|crea|modif
+la création de villes nouvelles ou de centres urbains rénovés|crea|crea
+développer les métropoles d'équilibre|crea|maint
+L'implantation d'activités de bureau, de commerce et d'industrie|crea|modif
+édifiés|crea|destr
+La création de villes nouvelles|crea|crea
+pourront s'ordonner|crea|destr
+doivent s'étendre|crea|crea
+une image vivante et constamment renouvelée|repr|repr
+l'extension de ses transports|crea|crea
+se forme|crea|repr
+l'organisation et l'aménagement projetés|crea|repr
+la croissance de Paris|crea|modif
+Le développement en tache d'huile|crea|modif
+submergés par la marée désordonnée des constructions|crea|destr
+"restaurer la ""valeur de site"""|repr|repr
+préserver ceux qui doivent rester vierges de constructions|maint|maint
+implanter les villes nouvelles et leurs zones d'accompagnement|crea|crea
+les développements|crea|modif
+non pas annihilés|destr|destr
+ont-ils été construits|crea|destr
+commence à atteindre|crea|repr
+le futur aéroport Nord|crea|crea
+le développement de la région|crea|modif
+devra aller|crea|repr
+l'implantation de la ville|crea|modif
+l'extension de l'agglomération parisienne|crea|modif
+en faisant avancer l'agglomération|crea|modif
+toute urbanisation|crea|modif
+les axes préférentiels d'urbanisation|crea|repr
+des poussées spontanées|crea|repr
+en expansion|crea|crea
+axe principal de développement de la région urbaine|crea|modif
+la mise en service complète|crea|repr
+axe d'urbanisation|crea|repr
+la poussée des constructions|crea|crea
+construire un ruban continu de logements et d'usines|crea|crea
+s'étend en largeur|crea|modif
+peut être conçue|crea|crea
+des poussées d'urbanisation|crea|modif
+un axe secondaire d'urbanisation|crea|modif
+tous les développements|crea|modif
+les poussées|crea|repr
+un développement linéaire de centres intermédiaires|crea|modif
+futur aéroport Nord|crea|destr
+le centre urbain nouveau de Beauchamp|crea|modif
+une ville nouvelle|crea|crea
+est également constitué|crea|repr
+une autre ville nouvelle|crea|repr
+deux villes nouvelles|crea|repr
+l'expansion de l'agglomération actuelle|crea|modif
+tous les centres urbains nouveaux|crea|crea
+toutes les villes nouvelles|crea|repr
+créer, dans l'ensemble de la région urbaine, ce niveau intermédiaire de centres qui manque aujourd'hui|crea|repr
+la poussée de l'agglomération présente|crea|modif
+la zone actuellement construite|crea|crea
+cette poussée naturelle|crea|destr
+les banlieues actuelles, enfin reliées entre elles, progressivement rénovées, restructurées|repr|modif
+la constitution de quelques centres urbains dignes de ce nom - Nanterre, Saint-Denis, Bobigny, Créteil, Rungis-Choisy-le-Roi|crea|modif
+soit mis fin au recul, jusqu'à présent constant, des espaces libres|modif|maint
+peuvent être conservés|maint|maint
+les développements prévus|crea|repr
+îlots de verdure sans cesse grignotés|destr|destr
+pourront croître|crea|repr
+Cette industrialisation|crea|destr
+s'étant localisées|crea|repr
+se transforment|modif|modif
+se substituant aux unités de production|modif|repr
+se développent|crea|modif
+de vastes lotissements créés|crea|crea
+attend sa réalisation|crea|repr
+des ensembles de construction récents|crea|destr
+ont transformé le caractère de la banlieue|modif|modif
+subsistent|maint|maint
+ont pris place|crea|repr
+Le développement de cette banlieue|crea|modif
+un axe principal d'urbanisation|crea|modif
+la ville nouvelle de Pontoise-Cergy|crea|crea
+"La ""restructuration"" de l'ensemble de cette zone"|repr|repr
+"la constitution de centres secondaires : Saint-Denis, Stains, Villetaneuse</lieu>, <lieu type=""obj"" n=2><res n=2>Beauchamp</res></lieu></dyn>"|crea|crea
+L'axe d'urbanisation|crea|repr
+le futur aérodrome|crea|crea
+la création d'une deuxième ligne R.E.R.|crea|crea
+doublant la voie ferrée de Pontoise|crea|modif
+"l'aménagement des différentes parties de la zone Nord : l'agglomération actuelle et la ""vallée de Montmorency"", la ville nouvelle"|crea|modif
+L'urbanisation|crea|modif
+développement urbain|crea|modif
+l'organisation de ces développements|crea|repr
+constituera l'axe urbain|crea|repr
+doubler|crea|repr
+Le doublement de la ligne de Pontoise|crea|destr
+une nouvelle ligne ferrée|crea|crea
+l'amorce d'une deuxième transversale du R.E.R.|crea|repr
+"la ""ville nouvelle"" de Pontoise - Cergy"|crea|modif
+aura atteint un niveau de développement important|crea|modif
+doit se transformer|modif|modif
+une rénovation mesurée|repr|modif
+une restauration|repr|repr
+permettra, en respectant le cadre de la cité, d'y accueillir les établissements surtout culturels|crea|modif
+doit être créé|crea|crea
+la création de ces trois pôles urbains|crea|crea
+"doit accueillir le principal des centres urbains de la ""vallée de Montmorency"""|crea|modif
+une agglomération nouvelle|crea|crea
+pourra s'établir|crea|repr
+accueillera une ville|crea|destr
+se trouvera placée|crea|repr
+l'un des principaux éléments du développement de cette vallée|crea|repr
+"la ""ville nouvelle"""|crea|repr
+permet de réaliser un ensemble urbain de grande qualité|crea|repr
+peut être aménagée|crea|modif
+création d'un vaste plan d'eau|crea|crea
+la création de la préfecture du nouveau département du Val d'Oise|crea|crea
+se prolonger linéairement|crea|modif
+les développements industriels prévus|crea|crea
+remplacera l'aérodrome actuel du Bourget|modif|repr
+est destiné à devenir le premier aéroport de France|modif|destr
+Sa création|crea|crea
+l'aménagement du secteur Nord-Est de l'agglomération de Paris|crea|modif
+crée|crea|crea
+constitue|crea|crea
+en maintenant en zone agricole la Plaine de France|maint|modif
+la limitation du développement de la banlieue|crea|modif
+la localisation de ces activités|crea|destr
+pourra être créé|crea|crea
+la localisation sur un terrain libre de 40 hectares environ de la préfecture du nouveau département de Seine-Saint-Denis|crea|modif
+permettra de créer à Bobigny un centre secondaire d'emplois et de commerces|crea|crea
+restructuration de l'ensemble du secteur|repr|modif
+un développement industriel|crea|modif
+l'aménagement de la partie de la vallée de l'Oise située en région de Paris|crea|modif
+un développement important|crea|modif
+crée la voie routière souhaitable|crea|crea
+peut encore, si cette orientation générale est en définitive retenue, devenir, par l'amélioration des conditions de navigation, une voie fluviale beaucoup plus importante qu'aujourd'hui|modif|modif
+relier la région de Paris et la vallée de la Seine d'abord au Nord de la France, puis, par l'Aisne, à l'Est du pays|crea|modif
+l'expansion urbaine et industrielle|crea|modif
+sont entièrement urbanisées|crea|maint
+a pu être préservé|maint|maint
+est demeuré affecté aux activités agricoles|maint|maint
+L'évolution des communes proches du boulevard périphérique|modif|modif
+des actions de rénovation|repr|modif
+la transformation de la route nationale 186|modif|modif
+la reprise simultanée du réseau secondaire|repr|repr
+préserver une coulée verte|maint|maint
+doit être impérativement sauvegardée|maint|destr
+cette sauvegarde|maint|repr
+seront de leur côté préservés|maint|maint
+l'amélioration du tracé de la R.N. 306|modif|modif
+ne doivent pas pour autant perdre leur caractère rural|modif|repr
+sera sauvegardé|maint|maint
+la préservation des sites existants|maint|maint
+la sauvegarde des sites|maint|maint
+la préservation de la vallée|maint|maint
+la résorption progressive des champs d'épandage d'Achères|modif|destr
+la disparition progressive des champs d'épandage|destr|destr
+devront être protégés et aménagés|maint|maint
+conserve encore de nombreuses exploitations maraîchères et surtout fruitières|maint|maint
+disparaissent|destr|destr
+subsistent encore|maint|maint
+recommencent même à se développer|repr|repr
+tendent à devenir des banlieues-dortoir|modif|modif
+sa restructuration|repr|repr
+pourront être désaffectés|modif|destr
+restructuration de cette banlieue|repr|repr
+doit être préservé et exploité|maint|maint
+de nombreux bois à préserver|maint|maint
+des transformations importantes|modif|modif
+la mutation de l'agglomération parisienne|modif|modif
+le maintien de la vocation agricole de 60 % de la superficie de la région|maint|maint
+la destruction|destr|destr
+mérite d'être conservé|maint|maint
+la démolition de ce centre|destr|destr
+reconstruire à une échelle plus grande|repr|modif
+la mise en place de centres urbains rénovés|repr|modif
+une transformation profonde|modif|modif
+déplacer Notre-Dame ni la Sorbonne|modif|destr
+en décentrant la capitale|modif|modif
+rééquilibrer Paris|repr|modif
+a été doublée|modif|repr
+redoublée|modif|repr
+"quartiers historiques ""réhabilités"""|repr|modif
+la reconquête de Paris|repr|repr
+"""noyaux restructurants"""|repr|repr
+le départ des Halles centrales|modif|destr
+la rénovation de tout l'environnement|repr|modif
+ont gardé au cours des siècles beaucoup d'espaces|maint|maint
+la reconquête d'une partie de son sol|repr|repr
+doivent être rénovés|repr|modif
+la sauvegarde des quartiers existants|maint|maint
+aménager la voirie existante|modif|modif
+restaurant la beauté de ses quartiers historiques|repr|repr
+les quartiers à rénover|repr|modif
+conservant dans l'ensemble le volume modéré de ses bâtiments|maint|maint
+une transformation semblable|modif|modif
+La rénovation des vieux quartiers denses|repr|modif
+n'a guère évolué|maint|modif
+l'adapter au développement de la circulation automobile|modif|repr
+a commencé de transformer les villes|modif|modif
+ont laissé subsister|maint|maint
+une nouvelle transformation radicale|modif|modif
+les aménagements éventuels|modif|repr
+leur adaptation|modif|modif
+des démolitions à prévoir|destr|destr
+la préservation des sites|maint|maint
+les élargissements futurs|modif|repr
+quelques aménagements des voies|modif|modif
+préserver|maint|maint
+la rénovation de quartiers anciens|repr|modif
+leur nécessaire modernisation|modif|modif
+leur réorganisation|repr|modif
+conserve une multitude de petits établissements|maint|maint
+a prévu de rénover|repr|modif
+transformations de leur environnement|modif|modif
+de profondes modifications|modif|modif
+La rénovation des usines|repr|modif
+conserver les terres à blé ou à betterave|maint|maint
+les destructions|destr|destr
+soient reboisées|repr|repr
+aménager|modif|modif
+doit permettre, hors de ce périmètre, d'éviter que la campagne ne perde l'aspect naturel qui fait son charme|maint|maint
+gâchent définitivement le paysage rural|modif|destr
+doit demeurer|maint|maint
+la même mutation|modif|repr
+reconstituer un musée des Travaux publics|repr|destr
+en pleine évolution|modif|modif
+ne feront pas l'objet de rénovation|repr|destr
+les banlieues actuelles évoluant|modif|modif
+un renouveau de beauté|repr|repr
+une permanence de Paris|maint|destr
+cette permanence|maint|maint

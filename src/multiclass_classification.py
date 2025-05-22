@@ -30,7 +30,7 @@ def annotate_with_ollama_multiclass(sentences: list[str]) -> list:
 
 def get_annotated_df_multiclass(csv_file: str) -> pd.DataFrame:
     df = pd.read_csv(csv_file, sep="|")
-    sentences = df["text"].tolist()
+    sentences = df["dynamique_text"].tolist()
     annotations = annotate_with_ollama_multiclass(sentences)
     df["annotation"] = annotations
 
