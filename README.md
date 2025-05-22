@@ -58,6 +58,9 @@ You have to modify `config.yaml` file according to your settings. Here are the r
 model: "deepseek-r1:1.5b"
 custom_model: "urbaniste"
 
+# TASK
+classification: "binary" # "binary" or "multiclass"
+
 # PATH-RELATED INFORMATION
 root_dir_path: "/Users/valentinefleith/Perso/code/projet-tuteure"
 csv_corpus_path: "corpus/corpus_phrases"
@@ -86,8 +89,14 @@ This executes `main.py` which:
 - Saves LLM annotation in `annotations/annotations_llm/{model-name}`
 - Evaluates the model and saves results in `results/classification/{model-name}`
 
-During the running, it prints the result tables which are also saved. For example:
+During the running, it prints the result tables which are also saved. For example for binary classification:
+
 ![image](https://github.com/user-attachments/assets/159eb060-5526-46ba-8373-26a5400ce66f)
+
+And for multiclass:
+
+![image](https://github.com/user-attachments/assets/93b5adf9-b727-46cf-802b-31317fbb24eb)
+
 
 
 Once you tested on any model you want, you can compare the results:
@@ -101,5 +110,4 @@ Example output:
 ---
 ### TODO:
 - Improve annotation accuracy by refining prompts
-- Support extraction of urban dynamics
 - Support multiple annotation types beyond urban dynamics
