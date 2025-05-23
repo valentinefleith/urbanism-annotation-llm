@@ -87,7 +87,7 @@ This allows you to run this pipeline this any corpus that you want. The corpus p
 | sentence | dynamic |
 |----------|---------|
 | C’est l’objectif que le Gouvernement assignait le 31 décembre 1958 au plan d’Aménagement et d’Organisation Générale de la Région Parisienne. | 0 |
-| Des milliers de logements sans confort se sont édifiés dans un incroyable désordre. | 0 |
+| Des milliers de logements sans confort se sont édifiés dans un incroyable désordre. | 1 |
 
 The separator is a pipe (`|`) and each class is representend by either `0` or `1`.
 
