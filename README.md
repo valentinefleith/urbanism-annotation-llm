@@ -1,7 +1,7 @@
 [![image](https://github.com/user-attachments/assets/d7aeeb94-365a-48e0-98db-ca412f5a36a4)](https://ollama.com/)
 
 
-# Automatic annotation of ubran dynamics with LLMs: a comparative approach
+# Automatic annotation of urban dynamics with LLMs: a comparative approach
 
 ## Overview
 This repo is part of a **university-supervised research project** on automatic text annotation in the field of urbanism.  
@@ -10,6 +10,13 @@ It leverages **Ollama** and **Mistral/Llama3/Deepseek** to process input text an
 The model is configured using a **Modelfile** located in `prompt-playground/config/`, which defines the system prompt and behavior for urbanism-focused annotation.
 
 ---
+
+## Prerequisites
+
+- **Python** >= 3.10
+- A **UNIX** os or Windows with **WSL**
+- **Ollama** following the [documentation](https://ollama.com/download)
+
 
 ## Installation
 
@@ -30,8 +37,8 @@ or just
 make
 ```
 
-### 3. Install Ollama and required model
-Before running the project, install **Ollama** following the [documentation](https://ollama.com/download) and the LLM model that you want. For example:
+### 3. Install the required model on Ollama
+Before running the project, you have to install the LLM model that you want. For example:
 ```bash
 ollama install mistral
 ```
@@ -49,7 +56,6 @@ Finally, to build the model, type:
 ollama create urbaniste -f ./prompt-playground/config/Modelfile
 ```
 If you change the model name (something else that `urbaniste`, make sure to update it properly in the `config.yaml` file (cf. section 4).
-
 
 ### 4. Configuration
 You have to modify `config.yaml` file according to your settings. Here are the required fields:
@@ -74,7 +80,43 @@ save_result_metrics: true
 save_result_matrices: true
 ```
 
+This allows you to run this pipeline this any corpus that you want. The corpus paths must refer to a directory containing csv files, in this format:
+
+- _For binary classification:_
+
+| sentence | dynamic |
+|----------|---------|
+| C’est l’objectif que le Gouvernement assignait le 31 décembre 1958 au plan d’Aménagement et d’Organisation Générale de la Région Parisienne. | 0 |
+| Des milliers de logements sans confort se sont édifiés dans un incroyable désordre. | 0 |
+
+The separator is a pipe (`|`) and each class is representend by either `0` or `1`.
+
+- _For multiclass classification:_
+
+| dynamique_text                                                                 | dynamique_type |
+|--------------------------------------------------------------------------------|----------------|
+| se sont édifiés                                                                | crea           |
+| l’embellissement de Paris                                                     | modif          |
+| n’ont ajouté à « la plus belle ville du monde » qu’une banlieue indifférenciée, sans style et sans âme | crea           |
+| se prépara puis s’accomplit le renouveau de la France                         | repr           |
+
+The separator is a pipe (`|`) and each class is representend by a label , which must be updated in [`src/categories.py`](https://github.com/valentinefleith/urbanism-annotation-llm/blob/main/src/categories.py).
+
+```py
+from enum import Enum
+
+
+class Categories(Enum):
+    Creation = "crea"
+    Destruction = "destr"
+    Modification = "modif"
+    Reprise = "repr"
+    Maintien = "maint"
+```
+
 NB: to get `root_dir_path`, just type `pwd` in a terminal from the root of this repository and paste the result.
+
+_NB2: Configuration is in progress, you should soon configure class names in config file._
 
 
 ### 5. Run the project
